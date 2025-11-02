@@ -1,0 +1,93 @@
+# Welcome to Jekyll!
+#
+# This is the configuration file for your new blog using the Minimal Mistakes theme.
+# For more information, please visit: https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+
+# Site Settings
+locale: "zh-CN" # 主语言设置为中文
+title: "MochiaoChen" # 网站标题
+title_separator: "|"
+name: "MochiaoChen"
+description: "一个热爱探索的灵魂"
+url: "https://MochiaoChen.github.io"
+baseurl: ""
+repository: "MochiaoChen/MochiaoChen.github.io"
+
+# Minimal Mistakes Theme Settings
+minimal_mistakes_skin: "default" # "default" 配合 theme_switch 可实现日夜切换
+
+# Theme-switcher for dark mode
+theme_switch:
+  enable: true
+  default: "light"
+  icons:
+    light: "<i class='fas fa-sun'></i>"
+    dark: "<i class='fas fa-moon'></i>"
+
+# Comments
+comments:
+  provider: "giscus"
+  giscus:
+    repo: "MochiaoChen/MochiaoChen.github.io"
+    repo_id: "R_kgDOI1-_7w"
+    category: "Announcements"
+    category_id: "DIC_kwDOI1-_784CxWwM" # 已使用您提供的信息
+    mapping: "pathname"
+    strict: "0"
+    reactions_enabled: "1"
+    emit_metadata: "0"
+    input_position: "top"
+    theme: "preferred_color_scheme"
+    lang: "zh-CN"
+
+# Author Information
+author:
+  name: "MochiaoChen"
+  avatar: "/assets/images/avatar.png" # 占位符头像
+  bio: "博士生 / 软件工程师 / 终身学习者"
+  location: "你的城市, 国家"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:your-email@example.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/MochiaoChen"
+
+# Site Navigation
+# 双语导航
+main:
+  - title: "个人主页"
+    url: /
+  - title: "博客"
+    url: /year-archive/
+  - title: "分类"
+    url: /categories/
+  - title: "标签"
+    url: /tags/
+  - title: "关于"
+    url: /about/
+
+# Build settings
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+
+# Defaults for posts and pages
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
