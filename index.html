@@ -81,7 +81,7 @@ translation_url: /en/
     {% assign chinese_posts = site.posts | where_exp: "post", "post.lang != 'en'" %}
     {% for post in chinese_posts limit: 4 %}
       <article class="writing-row">
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{% if post.date_label %}{{ post.date_label }}{% else %}{{ post.date | date: "%Y.%m.%d" }}{% endif %}</time>
         <div>
           <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
           {% if post.description %}<p>{{ post.description }}</p>{% endif %}

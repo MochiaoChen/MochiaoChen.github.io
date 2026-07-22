@@ -6,7 +6,7 @@ layout: default
   <h1>{{ page.title }}</h1>
   {% if page.description %}<p class="post-hero__dek">{{ page.description }}</p>{% endif %}
   <div class="post-meta">
-    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time>
+    <time datetime="{{ page.date | date_to_xmlschema }}">{% if page.date_label %}{{ page.date_label }}{% else %}{{ page.date | date: "%Y.%m.%d" }}{% endif %}</time>
     <span>·</span>
     <span data-reading-time>{% if page.lang == 'en' %}Reading time{% else %}阅读时间{% endif %}</span>
   </div>
