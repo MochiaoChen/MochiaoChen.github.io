@@ -1,39 +1,101 @@
 ---
-layout: splash
+layout: default
+title: "首页"
+description: "Mochiao Chen 的个人主页：金融、计算、研究与写作。"
 permalink: /
-hidden: true
-header:
-  overlay_color: "#5e616c"
-  overlay_filter: "0.4"
-  overlay_image: /assets/images/splash.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-actions:
-  - label: "<i class='fas fa-file-alt'></i> 阅读博客"
-    url: "/year-archive/"
-  - label: "<i class='fab fa-github'></i> 关注 GitHub"
-    url: "https://github.com/MochiaoChen"
-
-excerpt: "你好，我是 **MochiaoChen**。<br /> 在这里，我将分享我的学术研究、项目心得与生活感悟。"
-
-feature_row:
-  - image_path: /assets/images/feature-research.jpg
-    title: "学术研究"
-    excerpt: "介绍你的研究方向和成果。"
-    url: "/categories/#research"
-    btn_label: "查看更多"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/feature-project.jpg
-    title: "项目开发"
-    excerpt: "展示你引以为傲的个人或团队项目。"
-    url: "/categories/#project"
-    btn_label: "查看更多"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/feature-thoughts.jpg
-    title: "随笔思考"
-    excerpt: "记录学习、生活中的点滴思考。"
-    url: "/categories/#thoughts"
-    btn_label: "查看更多"
-    btn_class: "btn--primary"
+body_class: home
+translation_url: /en/
 ---
 
-{% include feature_row %}
+<section class="hero wrap" aria-labelledby="hero-title">
+  <div class="hero__eyebrow reveal">MOCHIAO CHEN · BEIJING</div>
+  <div class="hero__grid">
+    <div class="hero__copy">
+      <h1 id="hero-title" class="hero__title reveal reveal--1">
+        在金融与计算之间，<br><em>写下一些可靠的东西。</em>
+      </h1>
+      <p class="hero__lead reveal reveal--2">
+        我是 Mochiao，金融学背景，关注 AI for Finance、基于智能体的市场模拟与自然语言处理。这里收录我的经历、写作，以及一些真正能用的小工具。
+      </p>
+      <div class="hero__actions reveal reveal--3">
+        <a class="button button--ink" href="{{ '/about/' | relative_url }}">认识我 <span aria-hidden="true">&rarr;</span></a>
+        <a class="text-link" href="{{ '/blog/' | relative_url }}">阅读博客</a>
+      </div>
+    </div>
+    <aside class="hero__note reveal reveal--2" aria-label="当前关注方向">
+      <span class="hero__note-no">01</span>
+      <p class="kicker">CURRENTLY EXPLORING</p>
+      <ul>
+        <li>AI for Finance</li>
+        <li>Agent-based Simulation</li>
+        <li>NLP &amp; Computational Economics</li>
+      </ul>
+      <a href="https://github.com/MochiaoChen" rel="me">GitHub / @MochiaoChen</a>
+    </aside>
+  </div>
+</section>
+
+<div class="rule wrap" aria-hidden="true"><span>SELECTED NOTES</span></div>
+
+<section class="home-section wrap" aria-labelledby="intro-title">
+  <div class="section-index">I</div>
+  <div class="section-heading">
+    <p class="kicker">PROFILE</p>
+    <h2 id="intro-title">一个跨学科的<br>实践者与写作者</h2>
+  </div>
+  <div class="section-copy prose-lite">
+    <p>就读于对外经济贸易大学金融学专业鸿儒实验班。我对技术的兴趣并不止于“会用”：我更关心模型怎样改变市场、信息怎样形成预期，以及工具怎样把复杂工作变得清晰。</p>
+    <p>我的公开工作横跨研究管线、文本分析、知识工具与课程笔记。写作则是另一种构建——把模糊的问题，整理成可以检验、可以继续讨论的结构。</p>
+    <a class="text-link" href="{{ '/about/' | relative_url }}">查看完整经历与能力图谱</a>
+  </div>
+</section>
+
+<section class="home-section home-section--tools wrap" aria-labelledby="tools-title">
+  <div class="section-index">II</div>
+  <div class="section-heading">
+    <p class="kicker">SELECTED WORK</p>
+    <h2 id="tools-title">小工具，<br>解决具体问题</h2>
+  </div>
+  <div class="tool-preview-grid">
+    {% assign featured_tools = site.data.tools | where: "featured", true %}
+    {% for tool in featured_tools limit: 4 %}
+      <a class="tool-card" href="{{ tool.url }}">
+        <span class="tool-card__no">0{{ forloop.index }}</span>
+        <span class="tool-card__kind">{{ tool.kind }}</span>
+        <h3>{{ tool.name }}</h3>
+        <p>{{ tool.description }}</p>
+        <span class="tool-card__arrow" aria-hidden="true">↗</span>
+      </a>
+    {% endfor %}
+    <a class="all-tools-link" href="{{ '/tools/' | relative_url }}">查看全部工具 <span aria-hidden="true">&rarr;</span></a>
+  </div>
+</section>
+
+<section class="home-section home-section--writing wrap" aria-labelledby="writing-title">
+  <div class="section-index">III</div>
+  <div class="section-heading">
+    <p class="kicker">RECENT WRITING</p>
+    <h2 id="writing-title">最近写下的</h2>
+  </div>
+  <div class="writing-list">
+    {% assign chinese_posts = site.posts | where_exp: "post", "post.lang != 'en'" %}
+    {% for post in chinese_posts limit: 4 %}
+      <article class="writing-row">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+        <div>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+        </div>
+        <a class="writing-row__arrow" href="{{ post.url | relative_url }}" aria-label="阅读《{{ post.title }}》">&rarr;</a>
+      </article>
+    {% else %}
+      <p>文章正在整理中。</p>
+    {% endfor %}
+    <a class="text-link writing-list__more" href="{{ '/blog/' | relative_url }}">进入全部文章</a>
+  </div>
+</section>
+
+<section class="closing-note wrap">
+  <p>“Build something that compounds.”</p>
+  <span>— a note to self</span>
+</section>

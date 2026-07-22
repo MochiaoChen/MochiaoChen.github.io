@@ -1,0 +1,28 @@
+{% assign is_en = false %}{% if page.lang == 'en' %}{% assign is_en = true %}{% endif %}
+{% if is_en %}{% assign nav_items = site.data.navigation_en %}{% else %}{% assign nav_items = site.data.navigation %}{% endif %}
+<header class="site-header">
+  <div class="site-header__inner wrap">
+    <a class="wordmark" href="{% if is_en %}{{ '/en/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" aria-label="Mochiao Chen home">
+      <span class="wordmark__seal" aria-hidden="true">墨</span>
+      <span class="wordmark__name">Mochiao<br>Chen</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span><span class="sr-only">Menu</span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+      {% for item in nav_items %}
+        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+    <div class="header-actions">
+      <div class="language-switch" aria-label="Language">
+        {% if is_en %}
+          <a href="{{ page.translation_url | default: '/' | relative_url }}">中</a><span>/</span><strong>EN</strong>
+        {% else %}
+          <strong>中</strong><span>/</span><a href="{{ page.translation_url | default: '/en/' | relative_url }}">EN</a>
+        {% endif %}
+      </div>
+      <button class="theme-toggle" type="button" aria-label="Toggle color theme"><span aria-hidden="true">◐</span></button>
+    </div>
+  </div>
+</header>
