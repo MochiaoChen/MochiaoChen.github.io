@@ -38,7 +38,9 @@
 
       var link = document.createElement('a');
       link.href = '#' + heading.id;
-      link.textContent = heading.textContent;
+      var label = heading.cloneNode(true);
+      Array.prototype.forEach.call(label.querySelectorAll('.cv-date'), function (date) { date.remove(); });
+      link.textContent = label.textContent.trim();
       link.dataset.level = heading.tagName.slice(1);
       toc.appendChild(link);
     });
