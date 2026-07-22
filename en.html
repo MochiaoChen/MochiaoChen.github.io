@@ -16,7 +16,7 @@ translation_url: /
         Working between finance<br><em>and computation.</em>
       </h1>
       <p class="hero__lead reveal reveal--2">
-        I am Mochiao, a finance student interested in AI for Finance, agent-based market simulation, and natural language processing. This is where I keep my work, writing, and small useful tools.
+        I am Mochiao, currently working on AI products at Tara while studying Finance at UIBE. This is where I keep my product work, writing, and small useful tools.
       </p>
       <div class="hero__actions reveal reveal--3">
         <a class="button button--ink" href="{{ '/en/about/' | relative_url }}">About me <span aria-hidden="true">&rarr;</span></a>
@@ -27,9 +27,9 @@ translation_url: /
       <span class="hero__note-no">01</span>
       <p class="kicker">CURRENTLY EXPLORING</p>
       <ul>
-        <li>AI for Finance</li>
-        <li>Agent-based Simulation</li>
-        <li>NLP &amp; Computational Economics</li>
+        <li>AI Product · Tara</li>
+        <li>AI Agents &amp; RAG</li>
+        <li>Finance × Computation</li>
       </ul>
       <a href="https://github.com/MochiaoChen" rel="me">GitHub / @MochiaoChen</a>
     </aside>
@@ -45,8 +45,8 @@ translation_url: /
     <h2 id="intro-title">An interdisciplinary<br>builder and writer</h2>
   </div>
   <div class="section-copy prose-lite">
-    <p>I study Finance in the Hongru Experimental Program at the University of International Business and Economics. I care not only about using technology, but about how models reshape markets, how information becomes expectation, and how tools make difficult work legible.</p>
-    <p>My public work spans research pipelines, text analysis, knowledge tools, and course notes. Writing is another form of building: turning a vague question into a structure that can be examined and extended.</p>
+    <p>I work on AI products at Tara and study Finance at the University of International Business and Economics. I care not only about using technology, but about turning models into products, understanding how information becomes expectation, and making difficult work legible.</p>
+    <p>My experience spans the AI startup ecosystem, investment banking, industry research, and product development. Writing is another form of building: turning a vague question into a structure that can be examined and extended.</p>
     <a class="text-link" href="{{ '/en/about/' | relative_url }}">View my background and selected work</a>
   </div>
 </section>
@@ -79,7 +79,7 @@ translation_url: /
     {% assign english_posts = site.posts | where: "lang", "en" %}
     {% for post in english_posts limit: 4 %}
       <article class="writing-row">
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{% if post.date_label %}{{ post.date_label }}{% else %}{{ post.date | date: "%Y.%m.%d" }}{% endif %}</time>
         <div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>{% if post.description %}<p>{{ post.description }}</p>{% endif %}</div>
         <a class="writing-row__arrow" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title }}">&rarr;</a>
       </article>

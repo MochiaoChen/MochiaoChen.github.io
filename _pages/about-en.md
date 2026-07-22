@@ -1,6 +1,6 @@
 ---
 title: "About & Experience"
-description: "Mochiao Chen's background, research interests, selected work, and technical practice."
+description: "Mochiao Chen's education, AI product practice, professional experience, projects, and technical capabilities."
 permalink: /en/about/
 eyebrow: "PROFILE / CURRICULUM VITAE"
 toc: true
@@ -10,56 +10,94 @@ translation_url: /about/
 
 ## Profile
 
-I am **Mochiao Chen**, a Finance student in the Hongru Experimental Program at the University of International Business and Economics. My interests sit at the intersection of finance, computer science, and writing: AI for Finance, agent-based market simulation, natural language processing, and the use of computation to understand economic systems.
+I am **Mochiao Chen**, currently working on **AI products at Tara** while studying Finance in the Hongru Finance Talent Program at the University of International Business and Economics.
 
-I enjoy turning research questions into things that run, and complicated ideas into clear, verifiable long-form writing. This website is both a public record of my work and a digital garden in progress.
+My work sits at the intersection of product, finance, and computation: turning language models into useful products, using research and data to understand industries, and writing to make complicated questions clear and verifiable.
+
+## Current
+
+### AI Product · Tara <span class="cv-date">Present</span>
+
+I currently work on AI products at Tara.
 
 ## Education
 
-### University of International Business and Economics
+### University of International Business and Economics <span class="cv-date">Sep 2024—Jun 2028</span>
 
-**Finance · Hongru Experimental Program**<br>
-Beijing, China
+**B.Econ. in Finance · Hongru Finance Talent Program · China School of Finance**
 
-- Focus: AI for Finance, computational economics, agent-based market simulation, and NLP
-- Related practice: financial analysis, data analysis, economic research, and computational experiments
+## Experience
 
-> Dates, awards, and course details are not included because they are not yet confirmed in the public record.
+### Investor Relations Intern · MiraclePlus <span class="cv-date">May 2026</span>
 
-## Research & Practice
+- Connected MiraclePlus with the technology startup ecosystem, identifying high-potential founders across multiple channels and supporting their conversion into the programme.
+- Helped design and deploy an internal AI agent system, building a structured RAG knowledge base to improve institutional knowledge capture.
 
-### AI-assisted research workflows
+### Investment Banking Intern · CITIC Securities <span class="cv-date">Jan—May 2026</span>
 
-I explore how language models can support research decomposition, retrieval, fact-checking, and structured report generation. [deep-research-reporter](https://github.com/MochiaoChen/deep-research-reporter) is a minimal working pipeline with both closed-book and retrieval-augmented modes.
+- Worked on the Hong Kong IPO of an embodied-intelligence company and contributed to the business section of its prospectus; analysed AI algorithms, perception systems, the robotics hardware chain, core business logic, and comparable companies.
+- Supported M111 filings and responses to the Hong Kong Stock Exchange as part of the listing application process.
 
-### Computational finance and market simulation
+### Investment Banking Intern · Great Wall Securities <span class="cv-date">Sep 2025—Mar 2026</span>
 
-I am interested in how text becomes an economic signal and how agents interact in markets. Public work includes [Text2Inflation](https://github.com/MochiaoChen/Text2Inflation), which quantifies central-bank policy reports to explore CPI inflation forecasting, alongside several LLM-driven market simulation experiments.
+- Conducted due diligence for a corporate bond project, assisted with project-initiation and filing materials, and organised the working-paper archive.
+- Used Wind, iFind, Excel, and Python for market-data cleaning and peer analysis.
 
-### Teaching and knowledge work
+### AI & Technology Content Operations Intern · 云杉资本 <span class="cv-date">Mar—Sep 2025</span>
 
-I maintain notes on finance, economics, Python, and probability, as well as LaTeX templates for academic presentations. Across these projects, I value clarity, reusability, and reproducibility.
+- Researched AI and consumer sectors, independently writing industry briefs on the business models and technical approaches of AI startups in China and abroad.
+- Built an AI-investing topic library and produced long-form analysis to support the investment team’s view of market trends.
+
+## Selected Projects
+
+### Lectio · AI Learning Skill <span class="cv-date">May 2026</span>
+
+**Beijing Student Computer Design Competition · Third Prize · Project Lead**
+
+- Independently designed and developed an open-source AI learning skill that turns PDF slides, Bilibili or YouTube videos, and scattered notes into structured LaTeX handouts, Markdown previews, and Anki flashcards.
+- Designed for agent runtimes and tuned on the GLM model family, with Socratic questions, Feynman compression, and automatic flashcards; released under GPL-3.0.
+
+### Jianzhendun · Multimodal Financial Fraud Detection <span class="cv-date">Nov 2025</span>
+
+**ICBC Cup National Student FinTech Innovation Competition · National Third Prize · Core Developer / Tech Lead**
+
+- Designed a multi-agent architecture that used prompt engineering to identify six categories of fraud, and led full-stack development.
+- Built an intermediary-fraud feature library; the model achieved 90% accuracy on the test set and produced quantitative risk scores.
+
+### Xinqiao · AI Mental-health Companion <span class="cv-date">May 2025</span>
+
+**Challenge Cup Beijing Student Academic & Technology Competition · Third Prize · Project Lead / PM**
+
+- Owned the product PRD and business plan, taking the concept through the full product-development process.
+- Combined RAG with a counselling knowledge base to design an AI assistant for emotion recognition, psychological guidance, and companionship.
+
+### NIPT Timing Optimisation and Anomaly Detection <span class="cv-date">Oct 2025</span>
+
+**China Undergraduate Mathematical Contest in Modeling · Beijing First Prize · Core Team Member**
+
+- Built a multidimensional machine-learning framework on clinical data, handling missing-value imputation, outlier removal, and modelling implementation.
+- Wrote the project’s core abstract and produced visualisations of distributions, feature importance, and ROC curves in Python.
 
 ## Capabilities
 
 | Area | Tools and methods |
 | --- | --- |
-| Data & research | Python, Pandas, NumPy, SQL, experimental design, text analysis |
-| Engineering | Git, GitHub, Docker, Linux, automated workflows |
-| Publishing | Markdown, LaTeX, technical writing, research reports |
-| Current focus | AI agents, RAG, market simulation, AI for Finance |
+| Programming | Python, C++, SQL, HTML, JavaScript, LaTeX |
+| AI product | LLM applications, prompt engineering, agents, RAG, product requirements |
+| Data & research | Data cleaning, visualisation, machine-learning fundamentals, statistical modelling, industry research |
+| Languages | English C1; CET-4 score 626; professional working proficiency |
 
-## Selected Work
+## Awards
 
-- **[Text2Inflation](https://github.com/MochiaoChen/Text2Inflation)** — NLP signals from central-bank reports for inflation forecasting.
-- **[deep-research-reporter](https://github.com/MochiaoChen/deep-research-reporter)** — A minimal pipeline from research question to structured report.
-- **[UIBE-Beamer](https://github.com/MochiaoChen/UIBE-Beamer)** — An unofficial Beamer template for UIBE.
-- **[MicroNotes](https://github.com/MochiaoChen/MicroNotes)** — Notes on intermediate microeconomics.
-- **[Python_notes_2025](https://github.com/MochiaoChen/Python_notes_2025)** — Course notes for Python and big-data analysis.
+- **Beijing Student Humanities Knowledge Competition, Individual First Prize**, Nov 2025
+- **ICBC Cup National Student FinTech Innovation Competition, National Third Prize**, Oct 2025
+- **China Undergraduate Mathematical Contest in Modeling, Beijing First Prize**, Oct 2025
+- **Challenge Cup Beijing Student Academic & Technology Competition, Third Prize (Project Lead)**, May 2025
+- **National Student Statistical Modeling Competition, Third Prize**, May 2025
+- **37th Chinese Chemistry Olympiad, Shaanxi First Prize**, Nov 2023
 
 ## Contact
 
+- Email: [mochiaochen@gmail.com](mailto:mochiaochen@gmail.com)
 - GitHub: [github.com/MochiaoChen](https://github.com/MochiaoChen)
 - WeChat: `MochiaoChen`
-
-Email and other unconfirmed public details are intentionally left out for now.

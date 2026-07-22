@@ -1,6 +1,6 @@
 ---
 title: "关于与经历"
-description: "Mochiao Chen 的教育背景、研究兴趣、项目经历与技术能力。"
+description: "陈沫樵的教育背景、AI 产品实践、实习经历、项目与技术能力。"
 permalink: /about/
 eyebrow: "PROFILE / CURRICULUM VITAE"
 toc: true
@@ -9,56 +9,94 @@ translation_url: /en/about/
 
 ## 简介
 
-我是 **Mochiao Chen**，就读于对外经济贸易大学金融学专业鸿儒实验班。我的关注点位于金融、计算机科学与写作的交界：AI for Finance、基于智能体的市场模拟、自然语言处理，以及技术如何帮助我们更好地理解经济系统。
+我是 **陈沫樵（Mochiao Chen）**，目前在 **Tara 从事 AI 产品工作**，同时就读于对外经济贸易大学金融学专业鸿儒金融人才培养实验班。
 
-我喜欢把研究问题做成能够运行的东西，也喜欢把复杂概念写成清楚、可复核的长文。这个网站既是一份公开履历，也是一座持续生长的数字花园。
+我的实践位于产品、金融与计算的交界：把大语言模型做成真实可用的产品，使用数据与研究理解行业，也通过写作把复杂问题整理成清楚、可复核的结构。
+
+## 当前
+
+### AI 产品 · Tara <span class="cv-date">现在</span>
+
+在 Tara 从事 AI 产品工作。
 
 ## 教育经历
 
-### 对外经济贸易大学
+### 对外经济贸易大学 <span class="cv-date">2024.09—2028.06</span>
 
-**金融学 · 鸿儒实验班**<br>
-北京，中国
+**金融学（鸿儒金融人才培养实验班） · 中国金融学院 · 经济学学士**
 
-- 关注方向：AI for Finance、计算经济学、基于智能体的市场模拟、NLP
-- 相关能力：金融分析、数据分析、经济学研究与计算实验
+## 实习经历
 
-> 具体时间、奖项及课程信息暂不在公开资料中展示；确认后可随时补充。
+### 投资者关系实习生 · 奇绩创坛 <span class="cv-date">2026.05</span>
 
-## 研究与实践
+- 作为奇绩创坛与科技创业生态的联结枢纽，通过多元渠道触达高潜力创业者并推动入营转化。
+- 参与设计并落地内部 AI 智能体系统，基于 RAG 架构构建结构化知识库，提升团队知识沉淀能力。
 
-### AI 驱动的研究工作流
+### 投资银行部实习生 · 中信证券 <span class="cv-date">2026.01—2026.05</span>
 
-持续探索如何将大语言模型用于研究问题拆解、资料检索、事实核验和结构化报告生成。代表项目 [deep-research-reporter](https://github.com/MochiaoChen/deep-research-reporter) 同时支持闭卷生成与检索增强两类工作流。
+- 深度参与某具身智能企业港股 IPO 项目，参与招股书“业务”章节撰写；梳理 AI 算法、感知系统与机器人硬件链条，完成核心业务逻辑分析和同业研究。
+- 协助 M111 表格填报及港交所回函撰写，支持上市申请流程的合规推进。
 
-### 计算金融与市场模拟
+### 投资银行部实习生 · 长城证券 <span class="cv-date">2025.09—2026.03</span>
 
-关注文本如何映射为经济信号、智能体如何形成市场互动。公开项目包括以 NLP 量化央行货币政策报告并预测 CPI 的 [Text2Inflation](https://github.com/MochiaoChen/Text2Inflation)，以及多个 LLM 驱动的市场模拟实验。
+- 参与公司债项目尽职调查，协助撰写立项报告与申报材料，整理并归档项目底稿。
+- 使用 Wind、iFind、Excel 与 Python 进行市场数据清洗和同行业分析。
 
-### 教学与知识整理
+### AI 科技内容运营实习生 · 云杉资本 <span class="cv-date">2025.03—2025.09</span>
 
-维护金融、经济学、Python 和概率统计等课程笔记；也制作面向学校场景的 LaTeX 模板与演示工具，强调清晰、可复用和可验证。
+- 聚焦 AI 与消费赛道，独立撰写行业分析简报，拆解国内外 AI 初创项目的商业模式与技术路径。
+- 建立 AI 赛道投资视角话题库，策划深度分析文章，辅助投资团队研判市场趋势。
+
+## 项目经历
+
+### Lectio · AI 学习 Skill <span class="cv-date">2026.05</span>
+
+**北京市大学生计算机设计大赛 · 北京市三等奖 · 项目负责人**
+
+- 独立设计并开发开源 AI 学习 Skill，可将 PDF 课件、B 站或 YouTube 视频及零散笔记重构为结构化 LaTeX 讲义、Markdown 预览和 Anki 闪卡。
+- 面向 Agent 运行时设计并在智谱 GLM 系列模型上调优，内置苏格拉底思考题、费曼压缩与自动闪卡等教学模块，以 GPL-3.0 协议开源。
+
+### 鉴真盾 · 多模态金融反欺诈系统 <span class="cv-date">2025.11</span>
+
+**“工行杯”全国大学生金融科技创新大赛 · 全国三等奖 · 核心开发者 / Tech Lead**
+
+- 设计多 Agent 协作架构，通过 Prompt Engineering 识别六类欺诈特征，并负责全栈开发。
+- 建立中介欺诈特征库，模型在测试集上的准确率达到 90%，实现风险量化评分。
+
+### 心桥 · AI 心理健康伙伴 <span class="cv-date">2025.05</span>
+
+**“挑战杯”首都大学生课外学术科技作品竞赛 · 北京市三等奖 · 项目负责人 / PM**
+
+- 负责产品 PRD 与商业计划书，推动产品从概念到落地。
+- 结合 RAG 与心理咨询知识库，设计具备情绪识别、心理辅导和陪伴功能的 AI 助手。
+
+### NIPT 时点优化与异常判定 <span class="cv-date">2025.10</span>
+
+**全国大学生数学建模竞赛 · 北京赛区一等奖 · 核心成员**
+
+- 基于临床数据构建多维机器学习模型体系，完成缺失值插补、异常值剔除等数据预处理并参与建模编程。
+- 撰写项目核心摘要，使用 Python 绘制数据分布、特征重要性与 ROC 曲线等可视化图表。
 
 ## 技术能力
 
 | 领域 | 工具与方法 |
 | --- | --- |
-| 数据与研究 | Python、Pandas、NumPy、SQL、实验设计、文本分析 |
-| 工程与协作 | Git、GitHub、Docker、Linux、自动化工作流 |
-| 表达与出版 | Markdown、LaTeX、技术写作、研究报告 |
-| 当前重点 | AI Agent、RAG、市场模拟、AI for Finance |
+| 编程与开发 | Python、C++、SQL、HTML、JavaScript、LaTeX |
+| AI 产品 | 大语言模型应用、Prompt Engineering、Agent、RAG、产品 PRD |
+| 数据与研究 | 数据清洗、可视化分析、机器学习基础、数理统计建模、行业研究 |
+| 语言 | 英语 C1；CET-4 626 分；英语可作为工作语言 |
 
-## 精选项目
+## 所获奖项
 
-- **[Text2Inflation](https://github.com/MochiaoChen/Text2Inflation)** — 用 NLP 量化央行货币政策报告，探索 CPI 通胀预测。
-- **[deep-research-reporter](https://github.com/MochiaoChen/deep-research-reporter)** — 从题目到结构化分析报告的最小可运行研究管线。
-- **[UIBE-Beamer](https://github.com/MochiaoChen/UIBE-Beamer)** — 自制的非官方对外经贸大学 Beamer 模板。
-- **[MicroNotes](https://github.com/MochiaoChen/MicroNotes)** — 中级微观经济学笔记。
-- **[Python_notes_2025](https://github.com/MochiaoChen/Python_notes_2025)** — Python 与大数据分析课程笔记。
+- **北京市大学生人文知识竞赛个人赛一等奖**，2025.11
+- **“工行杯”全国大学生金融科技创新大赛全国三等奖**，2025.10
+- **全国大学生数学建模竞赛北京赛区一等奖**，2025.10
+- **“挑战杯”首都大学生课外学术科技作品竞赛北京市三等奖（负责人）**，2025.05
+- **全国大学生统计建模大赛三等奖**，2025.05
+- **第 37 届中国化学奥林匹克陕西省一等奖**，2023.11
 
 ## 联系与链接
 
+- 邮箱：[mochiaochen@gmail.com](mailto:mochiaochen@gmail.com)
 - GitHub：[github.com/MochiaoChen](https://github.com/MochiaoChen)
 - 微信：`MochiaoChen`
-
-如果你想讨论研究、产品或写作，可以先通过 GitHub 找到我。邮箱等未确认的公开信息暂不展示。
