@@ -43,7 +43,7 @@ I currently work on AI products at Tara.
 - Conducted due diligence for a corporate bond project, assisted with project-initiation and filing materials, and organised the working-paper archive.
 - Used Wind, iFind, Excel, and Python for market-data cleaning and peer analysis.
 
-### AI & Technology Content Operations Intern · 云杉资本 <span class="cv-date">Mar—Sep 2025</span>
+### AI & Technology Content Operations Intern · Spruce Capital <span class="cv-date">Mar—Sep 2025</span>
 
 - Researched AI and consumer sectors, independently writing industry briefs on the business models and technical approaches of AI startups in China and abroad.
 - Built an AI-investing topic library and produced long-form analysis to support the investment team’s view of market trends.
