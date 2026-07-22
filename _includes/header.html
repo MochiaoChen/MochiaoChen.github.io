@@ -3,7 +3,7 @@
 <header class="site-header">
   <div class="site-header__inner wrap">
     <a class="wordmark" href="{% if is_en %}{{ '/en/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}" aria-label="Mochiao Chen home">
-      <span class="wordmark__seal" aria-hidden="true">墨</span>
+      <img class="wordmark__avatar" src="{{ '/assets/images/avatar.jpg' | relative_url }}" alt="" width="40" height="40">
       <span class="wordmark__name">Mochiao<br>Chen</span>
     </a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
