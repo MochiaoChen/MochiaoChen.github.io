@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<header class="page-hero wrap">
+  <p class="kicker">{{ page.eyebrow }}</p>
+  <h1>{{ page.title }}</h1>
+  {% if page.description %}<p class="page-hero__description">{{ page.description }}</p>{% endif %}
+</header>
+<div class="article-shell wrap{% if page.wide %} article-shell--wide{% endif %}">
+  {% if page.toc %}
+  <aside class="toc-panel" aria-label="Table of contents">
+    <p class="toc-panel__title">{% if page.lang == 'en' %}On this page{% else %}本页目录{% endif %}</p>
+    <nav class="toc" data-toc></nav>
+  </aside>
+  {% endif %}
+  <article class="prose{% if page.wide %} prose--wide{% endif %}" data-article>{{ content }}</article>
+</div>

@@ -1,0 +1,8 @@
+- title: "首页"
+  url: "/"
+- title: "关于"
+  url: "/about/"
+- title: "博客"
+  url: "/blog/"
+- title: "小工具"
+  url: "/tools/"

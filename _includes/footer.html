@@ -1,0 +1,14 @@
+<footer class="site-footer">
+  <div class="wrap site-footer__grid">
+    <div>
+      <p class="site-footer__name">Mochiao Chen</p>
+      <p>{% if page.lang == 'en' %}Finance, computation, and writing.{% else %}金融、计算与写作。{% endif %}</p>
+    </div>
+    <div class="site-footer__links">
+      <a href="https://github.com/MochiaoChen">GitHub</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      <a href="{% if page.lang == 'en' %}{{ '/en/about/' | relative_url }}{% else %}{{ '/about/' | relative_url }}{% endif %}">{% if page.lang == 'en' %}About{% else %}关于{% endif %}</a>
+    </div>
+    <p class="site-footer__copy">&copy; {{ 'now' | date: '%Y' }} Mochiao Chen<br>Typeset on the open web.</p>
+  </div>
+</footer>

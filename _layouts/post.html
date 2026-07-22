@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<header class="post-hero wrap">
+  <p class="kicker">{% if page.lang == 'en' %}ESSAY / {{ page.categories | first | upcase }}{% else %}文章 / {{ page.categories | first }}{% endif %}</p>
+  <h1>{{ page.title }}</h1>
+  {% if page.description %}<p class="post-hero__dek">{{ page.description }}</p>{% endif %}
+  <div class="post-meta">
+    <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time>
+    <span>·</span>
+    <span data-reading-time>{% if page.lang == 'en' %}Reading time{% else %}阅读时间{% endif %}</span>
+  </div>
+</header>
+<div class="article-shell wrap">
+  {% if page.toc %}
+  <aside class="toc-panel" aria-label="Table of contents">
+    <p class="toc-panel__title">{% if page.lang == 'en' %}Contents{% else %}文章目录{% endif %}</p>
+    <nav class="toc" data-toc></nav>
+  </aside>
+  {% endif %}
+  <article class="prose" data-article>{{ content }}</article>
+</div>
+<nav class="post-nav post-nav--back wrap" aria-label="Back to writing">
+  <a href="{% if page.lang == 'en' %}{{ '/en/blog/' | relative_url }}{% else %}{{ '/blog/' | relative_url }}{% endif %}">
+    <small>{% if page.lang == 'en' %}Writing index{% else %}文章归档{% endif %}</small>
+    <span>{% if page.lang == 'en' %}&larr; Back to all writing{% else %}&larr; 返回全部文章{% endif %}</span>
+  </a>
+</nav>

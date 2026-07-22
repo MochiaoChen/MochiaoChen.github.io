@@ -1,0 +1,71 @@
+- name: "Deep Research Reporter"
+  kind: "RESEARCH PIPELINE"
+  description: "从研究题目出发，完成结构化分析报告；支持纯模型生成、检索增强与事实核验。"
+  description_en: "A research pipeline that turns a question into a structured report, with closed-book, retrieval-augmented, and fact-checking modes."
+  stack: "Python · LLM · RAG"
+  status: "OPEN SOURCE"
+  url: "https://github.com/MochiaoChen/deep-research-reporter"
+  featured: true
+
+- name: "Text2Inflation"
+  kind: "COMPUTATIONAL ECONOMICS"
+  description: "量化央行货币政策报告中的文本信号，并探索其对 CPI 通胀的预测能力。"
+  description_en: "Quantifies textual signals in central-bank monetary policy reports and explores their value in forecasting CPI inflation."
+  stack: "Python · NLP · Econometrics"
+  status: "RESEARCH"
+  url: "https://github.com/MochiaoChen/Text2Inflation"
+  featured: true
+
+- name: "On-call Assistant"
+  kind: "KNOWLEDGE TOOL"
+  description: "面向值班 SOP 的检索助手，组合关键词检索、离线语义检索与 Agent 工作流。"
+  description_en: "A retrieval assistant for on-call SOPs, combining keyword search, offline semantic search, and an agent workflow."
+  stack: "FastAPI · BM25 · Agent"
+  status: "OPEN SOURCE"
+  url: "https://github.com/MochiaoChen/oncall-assistant"
+  featured: true
+
+- name: "Table Combiner"
+  kind: "PRODUCTIVITY"
+  description: "把一个文件夹中的多份表格快速合并为单个 Excel 工作簿的小型命令行工具。"
+  description_en: "A small command-line tool that merges a folder of table files into a single Excel workbook."
+  stack: "Python · CLI · Excel"
+  status: "OPEN SOURCE"
+  url: "https://github.com/MochiaoChen/Table_combiner"
+  featured: true
+
+- name: "PDF Outline Extractor"
+  kind: "DOCUMENT TOOL"
+  description: "从 PDF 文档中提取并整理结构化目录信息，服务于后续阅读与知识处理。"
+  description_en: "Extracts structured outline information from PDF documents for reading and downstream knowledge workflows."
+  stack: "Python · PDF"
+  status: "OPEN SOURCE"
+  url: "https://github.com/MochiaoChen/PDF-Outline-Extractor"
+  featured: false
+
+- name: "Bank Report Extractor"
+  kind: "FINANCE TOOL"
+  description: "面向银行报告的信息提取实验，用程序化方式减少长文档中的重复整理工作。"
+  description_en: "An information-extraction experiment for bank reports, designed to reduce repetitive work on long documents."
+  stack: "Python · Document AI"
+  status: "EXPERIMENT"
+  url: "https://github.com/MochiaoChen/BankReportExtractor"
+  featured: false
+
+- name: "Career Dream"
+  kind: "CREATIVE AI"
+  description: "根据理想职业生成一张“如果我做这份工作”的想象图像。"
+  description_en: "Generates a what-if portrait of an imagined dream job."
+  stack: "Generative AI · Image"
+  status: "EXPERIMENT"
+  url: "https://github.com/MochiaoChen/Career-Dream"
+  featured: false
+
+- name: "UIBE Beamer"
+  kind: "PUBLISHING"
+  description: "为对外经济贸易大学场景制作的非官方 LaTeX Beamer 演示文稿模板。"
+  description_en: "An unofficial LaTeX Beamer presentation template designed for UIBE contexts."
+  stack: "LaTeX · Beamer"
+  status: "OPEN SOURCE"
+  url: "https://github.com/MochiaoChen/UIBE-Beamer"
+  featured: false

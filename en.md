@@ -1,0 +1,91 @@
+---
+layout: default
+title: "Home"
+description: "The personal website of Mochiao Chen — finance, computation, research, and writing."
+permalink: /en/
+body_class: home
+lang: en
+translation_url: /
+---
+
+<section class="hero wrap" aria-labelledby="hero-title">
+  <div class="hero__eyebrow reveal">MOCHIAO CHEN · BEIJING</div>
+  <div class="hero__grid">
+    <div class="hero__copy">
+      <h1 id="hero-title" class="hero__title reveal reveal--1">
+        Working between finance<br><em>and computation.</em>
+      </h1>
+      <p class="hero__lead reveal reveal--2">
+        I am Mochiao, a finance student interested in AI for Finance, agent-based market simulation, and natural language processing. This is where I keep my work, writing, and small useful tools.
+      </p>
+      <div class="hero__actions reveal reveal--3">
+        <a class="button button--ink" href="{{ '/en/about/' | relative_url }}">About me <span aria-hidden="true">&rarr;</span></a>
+        <a class="text-link" href="{{ '/en/blog/' | relative_url }}">Read the journal</a>
+      </div>
+    </div>
+    <aside class="hero__note reveal reveal--2" aria-label="Current interests">
+      <span class="hero__note-no">01</span>
+      <p class="kicker">CURRENTLY EXPLORING</p>
+      <ul>
+        <li>AI for Finance</li>
+        <li>Agent-based Simulation</li>
+        <li>NLP &amp; Computational Economics</li>
+      </ul>
+      <a href="https://github.com/MochiaoChen" rel="me">GitHub / @MochiaoChen</a>
+    </aside>
+  </div>
+</section>
+
+<div class="rule wrap" aria-hidden="true"><span>SELECTED NOTES</span></div>
+
+<section class="home-section wrap" aria-labelledby="intro-title">
+  <div class="section-index">I</div>
+  <div class="section-heading">
+    <p class="kicker">PROFILE</p>
+    <h2 id="intro-title">An interdisciplinary<br>builder and writer</h2>
+  </div>
+  <div class="section-copy prose-lite">
+    <p>I study Finance in the Hongru Experimental Program at the University of International Business and Economics. I care not only about using technology, but about how models reshape markets, how information becomes expectation, and how tools make difficult work legible.</p>
+    <p>My public work spans research pipelines, text analysis, knowledge tools, and course notes. Writing is another form of building: turning a vague question into a structure that can be examined and extended.</p>
+    <a class="text-link" href="{{ '/en/about/' | relative_url }}">View my background and selected work</a>
+  </div>
+</section>
+
+<section class="home-section home-section--tools wrap" aria-labelledby="tools-title">
+  <div class="section-index">II</div>
+  <div class="section-heading">
+    <p class="kicker">SELECTED WORK</p>
+    <h2 id="tools-title">Small tools for<br>specific problems</h2>
+  </div>
+  <div class="tool-preview-grid">
+    {% assign featured_tools = site.data.tools | where: "featured", true %}
+    {% for tool in featured_tools limit: 4 %}
+      <a class="tool-card" href="{{ tool.url }}">
+        <span class="tool-card__no">0{{ forloop.index }}</span>
+        <span class="tool-card__kind">{{ tool.kind }}</span>
+        <h3>{{ tool.name }}</h3>
+        <p>{{ tool.description_en }}</p>
+        <span class="tool-card__arrow" aria-hidden="true">↗</span>
+      </a>
+    {% endfor %}
+    <a class="all-tools-link" href="{{ '/en/tools/' | relative_url }}">See all tools <span aria-hidden="true">&rarr;</span></a>
+  </div>
+</section>
+
+<section class="home-section home-section--writing wrap" aria-labelledby="writing-title">
+  <div class="section-index">III</div>
+  <div class="section-heading"><p class="kicker">RECENT WRITING</p><h2 id="writing-title">Recent notes</h2></div>
+  <div class="writing-list">
+    {% assign english_posts = site.posts | where: "lang", "en" %}
+    {% for post in english_posts limit: 4 %}
+      <article class="writing-row">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+        <div><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>{% if post.description %}<p>{{ post.description }}</p>{% endif %}</div>
+        <a class="writing-row__arrow" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title }}">&rarr;</a>
+      </article>
+    {% endfor %}
+    <a class="text-link writing-list__more" href="{{ '/en/blog/' | relative_url }}">All writing</a>
+  </div>
+</section>
+
+<section class="closing-note wrap"><p>“Build something that compounds.”</p><span>— a note to self</span></section>
