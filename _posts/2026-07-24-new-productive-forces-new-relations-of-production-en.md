@@ -10,7 +10,7 @@ translation_url: /writing/2026/07/new-productive-forces-new-relations-of-product
 toc: true
 ---
 
-<u>Every leap in productive forces ultimately requires new relations of production to sustain it.</u> Otherwise, new capabilities are trapped inside old structures and never fully released.
+<mark>Every leap in productive forces ultimately requires new relations of production to sustain it.</mark> Otherwise, new capabilities are trapped inside old structures and never fully released.
 
 Why did SpaceX succeed? It was not because NASA lacked the technology—it did not. The deeper reason is that NASA is a product of old relations of production. Its bureaucracy, contractor networks, and congressional budget cycles were designed for a previous generation of productive forces. Musk introduced a different set of relations—first-principles development, vertical integration, rapid iteration, and the unification of research and engineering—and used the same physics to produce a radically different result.
 
@@ -31,7 +31,7 @@ Human value will therefore become concentrated in two capabilities:
 1. **the ability to ask the right questions;**
 2. **the taste to judge what is valuable.**
 
-<u>When execution becomes cheap, questions and taste become expensive.</u>
+<mark>When execution becomes cheap, questions and taste become expensive.</mark>
 
 ## 2. Organisations are moving towards a “barbell structure”
 
@@ -47,7 +47,7 @@ At the organisational level, the new relations of production therefore resemble 
 - at the bottom, large numbers of small **OPCs and FDEs** connect frontier capabilities flexibly to concrete industry settings;
 - in the middle sit traditional companies—especially those whose existence depends on headcount—and they will face the greatest pressure.
 
-<u>Scale itself may not be the scarce resource of the future. High-density research and high-density judgement will be; low-density organisations caught between them are the most exposed.</u>
+<mark>Scale itself may not be the scarce resource of the future. High-density research and high-density judgement will be; low-density organisations caught between them are the most exposed.</mark>
 
 ## 3. Capital and research are moving from “financing” to “co-production”
 
@@ -69,7 +69,7 @@ America's Stargate and China's training grounds are, at their core, ways for sta
 
 The new relations of production thus gain another dimension. They concern not only firms, capital, and labour within markets, but also **competition among major powers for control over the core factors of production**.
 
-<u>Once compute becomes infrastructure, technological competition also becomes a contest over energy, manufacturing, and state capacity.</u>
+<mark>Once compute becomes infrastructure, technological competition also becomes a contest over energy, manufacturing, and state capacity.</mark>
 
 ## 5. The distribution of value is undergoing its greatest divergence
 
@@ -99,4 +99,4 @@ These questions are already larger than any individual or single organisation ca
 
 **Agentic AI is not merely another upgrade to our tools.** It is rewriting the relationships among labour, organisations, capital, the state, and distribution. The new productive force is already here. The unresolved question is whether we can create new relations of production quickly enough to sustain it.
 
-<u>If we cannot, new capabilities will only reinforce old structures. If we can, they may finally become the productive forces of a new era.</u>
+<mark>If we cannot, new capabilities will only reinforce old structures. If we can, they may finally become the productive forces of a new era.</mark>
