@@ -1,6 +1,6 @@
 ---
-title: "The Polyphony of Solitary Thought"
-description: "When you think for yourself, do you need to think with others? Independent thought demands autonomy of the subject, yet the structure of thinking presupposes the presence of others—an essay that stays in that contradiction a while."
+title: "When You Think for Yourself, Do You Need to Think with Others?"
+description: "Independent thought demands autonomy of the subject, yet the structure of thinking presupposes the presence of others. Both propositions are true, and they cannot be reconciled—an essay that stays in that contradiction a while."
 date: 2026-08-29 16:00:00 +0800
 date_label: "2026.08.29"
 categories: [Cognition]
