@@ -10,7 +10,7 @@ toc: false
 ---
 
 <figure markdown="0">
-  <img src="{{ '/assets/images/wuhou-gaowo.jpg' | relative_url }}" alt="水墨画：一位老者袒腹侧卧于竹林坡地之上，以手支颐，闭目安眠" width="1600" height="1089" loading="lazy">
+  <img src="{{ '/assets/images/wuhou-gaowo.jpg' | relative_url }}" alt="水墨画：一位老者袒腹侧卧于竹林坡地之上，以手支颐，闭目安眠" width="1600" height="1089">
   <figcaption>明 · 宣宗朱瞻基《武侯高卧图》卷（局部）。纸本墨笔，纵 27.7 厘米，横 40.5 厘米，故宫博物院藏。公有领域，图像来自 Wikimedia Commons。</figcaption>
 </figure>
 

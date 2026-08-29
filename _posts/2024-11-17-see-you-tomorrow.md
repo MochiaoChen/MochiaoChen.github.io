@@ -16,7 +16,7 @@ toc: false
 她转过身来，笑着问我要不要一起拍。阳光在她发梢跳跃，像一串跌落的风铃。那一刻我想说很多，却最终只是点了点头。青春就是这样，总把最珍贵的话语藏在沉默里。
 
 <figure markdown="0">
-  <img src="{{ '/assets/images/homer-snap-the-whip.jpg' | relative_url }}" alt="油画：夏日草地上，一队男孩手拉手奔跑，队尾两人被甩得跌倒在地，身后是一间红色的校舍" width="1600" height="975" loading="lazy">
+  <img src="{{ '/assets/images/homer-snap-the-whip.jpg' | relative_url }}" alt="油画：夏日草地上，一队男孩手拉手奔跑，队尾两人被甩得跌倒在地，身后是一间红色的校舍" width="1600" height="975">
   <figcaption>温斯洛 · 荷马（Winslow Homer）《甩鞭子》（Snap the Whip），1872 年，布面油画。美国大都会艺术博物馆藏（Open Access, CC0），图像来自 Wikimedia Commons。</figcaption>
 </figure>
 

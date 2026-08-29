@@ -12,17 +12,17 @@ toc: false
 ---
 
 <figure markdown="0">
-  <img src="{{ '/assets/images/millet-gleaners.jpg' | relative_url }}" alt="Oil painting: three women stoop in a stubble field at the end of the day, gathering fallen ears of wheat, with stacks and a busy harvest crew behind them" width="1600" height="1197" loading="lazy">
+  <img src="{{ '/assets/images/millet-gleaners.jpg' | relative_url }}" alt="Oil painting: three women stoop in a stubble field at the end of the day, gathering fallen ears of wheat, with stacks and a busy harvest crew behind them" width="1600" height="1197">
   <figcaption>Jean-François Millet, <em>Des glaneuses</em> (The Gleaners), 1857. Oil on canvas, Musée d’Orsay, Paris. Public domain, via Wikimedia Commons.</figcaption>
 </figure>
 
-Autumn air fills the flat and darkening sky;[^2-en]
-cold mist rises from the evening shoal.[^3-en]
-Dust lifts with every fold of cloth;
-sweat runs clear in the noonday sun.[^4-en]
-A thin fate:[^5-en] bitter, year upon year.
-A kind heart: light with every step.
-Long I sigh that heaven and earth are so generous,
+Autumn air fills the flat and darkening sky;[^2-en]<br>
+cold mist rises from the evening shoal.[^3-en]<br>
+Dust lifts with every fold of cloth;<br>
+sweat runs clear in the noonday sun.[^4-en]<br>
+A thin fate:[^5-en] bitter, year upon year.<br>
+A kind heart: light with every step.<br>
+Long I sigh that heaven and earth are so generous,<br>
 and cannot save one body from its poverty.[^6-en]
 {: .verse .verse--flush}
 

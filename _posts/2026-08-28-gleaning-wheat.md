@@ -10,13 +10,13 @@ toc: false
 ---
 
 <figure markdown="0">
-  <img src="{{ '/assets/images/millet-gleaners.jpg' | relative_url }}" alt="油画：暮色下的麦田里，三名妇人弯腰俯身，拾取收割后遗落的麦穗，远处是堆垛与忙碌的收割队伍" width="1600" height="1197" loading="lazy">
+  <img src="{{ '/assets/images/millet-gleaners.jpg' | relative_url }}" alt="油画：暮色下的麦田里，三名妇人弯腰俯身，拾取收割后遗落的麦穗，远处是堆垛与忙碌的收割队伍" width="1600" height="1197">
   <figcaption>让-弗朗索瓦 · 米勒（Jean-François Millet）《拾穗者》（Des glaneuses），1857 年，布面油画，巴黎奥赛博物馆藏。公有领域，图像来自 Wikimedia Commons。</figcaption>
 </figure>
 
-秋气满平冥[^2]，寒烟起晚汀[^3]。
-尘随衣上起，汗入日中清[^4]。
-命薄[^5]年年苦，心慈步步轻。
+秋气满平冥[^2]，寒烟起晚汀[^3]。<br>
+尘随衣上起，汗入日中清[^4]。<br>
+命薄[^5]年年苦，心慈步步轻。<br>
 长嗟天地厚，不救一身贫[^6]。
 {: .verse}
 

@@ -18,7 +18,7 @@ I stood at the back door of the classroom and watched Lotus tuck her fringe behi
 She turned round and asked me, smiling, whether I wanted to be in a photo with her. Sunlight jumped along the ends of her hair like a string of wind chimes coming loose. There was a great deal I wanted to say. In the end I only nodded. That is how youth works: it hides the words that matter most inside silence.
 
 <figure markdown="0">
-  <img src="{{ '/assets/images/homer-snap-the-whip.jpg' | relative_url }}" alt="Oil painting: a line of boys runs hand in hand across a summer meadow, two at the tail end flung loose and tumbling, a red schoolhouse behind them" width="1600" height="975" loading="lazy">
+  <img src="{{ '/assets/images/homer-snap-the-whip.jpg' | relative_url }}" alt="Oil painting: a line of boys runs hand in hand across a summer meadow, two at the tail end flung loose and tumbling, a red schoolhouse behind them" width="1600" height="975">
   <figcaption>Winslow Homer, <em>Snap the Whip</em>, 1872. Oil on canvas, The Metropolitan Museum of Art (Open Access, CC0), via Wikimedia Commons.</figcaption>
 </figure>
 

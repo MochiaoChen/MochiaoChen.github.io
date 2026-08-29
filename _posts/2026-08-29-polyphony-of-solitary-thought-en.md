@@ -16,7 +16,7 @@ toc: true
 We usually picture “thinking for yourself” like this: a person closes the door, shuts out the noise of the world, and meets the truth in a clean interior space. The picture is so deeply lodged that *thinking independently* has become almost synonymous with *thinking alone*. Yet between the two sides of that equation lies a crevasse.
 
 <figure markdown="0">
-  <img src="{{ '/assets/images/rembrandt-philosopher-in-meditation.jpg' | relative_url }}" alt="Oil painting: in a vaulted interior an old man sits in the light of a window on the left, deep in thought; a wooden spiral staircase winds up through the centre; at the lower right another figure bends over the fire" width="1600" height="1371" loading="lazy">
+  <img src="{{ '/assets/images/rembrandt-philosopher-in-meditation.jpg' | relative_url }}" alt="Oil painting: in a vaulted interior an old man sits in the light of a window on the left, deep in thought; a wooden spiral staircase winds up through the centre; at the lower right another figure bends over the fire" width="1600" height="1371">
   <figcaption>Rembrandt van Rijn, <em>Philosopher in Meditation</em>, 1632. Oil on panel, Musée du Louvre, Paris. Public domain, via Wikimedia Commons. Note the lower right: the philosopher meditating “alone” was never the only person in the frame.</figcaption>
 </figure>
 

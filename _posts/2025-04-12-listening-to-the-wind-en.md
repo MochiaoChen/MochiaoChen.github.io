@@ -14,7 +14,7 @@ toc: false
 Spring nights in the capital bring a fierce wind. At dusk it seemed only to brush past the ear, and I paid it little attention—though already there was something of “black clouds pressing on the city till the walls give way.”[^1-en] By the hour of midnight[^2-en] it had gathered itself: a thousand horsemen at the charge, arriving with the thunder at their backs. First came a distant moaning, like a rising tide; and then, in the space of a moment, it was past my window and in at the door.
 
 <figure markdown="0">
-  <img src="{{ '/assets/images/tangyin-spring-thunder-bamboo.jpg' | relative_url }}" alt="Ink painting on a folding fan: a stand of bamboo bends to the left under a gust, leaves swept back in dark and pale strokes" width="1600" height="752" loading="lazy">
+  <img src="{{ '/assets/images/tangyin-spring-thunder-bamboo.jpg' | relative_url }}" alt="Ink painting on a folding fan: a stand of bamboo bends to the left under a gust, leaves swept back in dark and pale strokes" width="1600" height="752">
   <figcaption>Tang Yin, <em>Bamboo in a Spring Thunderstorm</em>, folding fan mounted as an album leaf, Ming dynasty, early 16th century. Ink on gold-flecked paper, The Metropolitan Museum of Art (Open Access, CC0), via Wikimedia Commons.</figcaption>
 </figure>
 

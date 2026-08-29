@@ -14,7 +14,7 @@ toc: true
 我们通常把「独立思考」想象成这样一幅画面：一个人关上门，隔绝外界的喧嚣，在纯净的内心空间中与真理相遇。这幅画面如此深入人心，以至于「独立思考」几乎成了「独自思考」的同义词。然而，这个等式的两端之间，存在着一道深渊般的裂缝。
 
 <figure markdown="0">
-  <img src="{{ '/assets/images/rembrandt-philosopher-in-meditation.jpg' | relative_url }}" alt="油画：拱顶室内，左侧一位老者坐在窗前的光里沉思，中央是一道盘旋而上的木楼梯，右下角还有一个人俯身拨弄炉火" width="1600" height="1371" loading="lazy">
+  <img src="{{ '/assets/images/rembrandt-philosopher-in-meditation.jpg' | relative_url }}" alt="油画：拱顶室内，左侧一位老者坐在窗前的光里沉思，中央是一道盘旋而上的木楼梯，右下角还有一个人俯身拨弄炉火" width="1600" height="1371">
   <figcaption>伦勃朗（Rembrandt van Rijn）《沉思中的哲学家》（Philosophe en méditation），1632 年，木板油画，巴黎卢浮宫藏。公有领域，图像来自 Wikimedia Commons。注意画面右下角：那位「独自」沉思的哲学家，从来就不是画面里唯一的人。</figcaption>
 </figure>
 

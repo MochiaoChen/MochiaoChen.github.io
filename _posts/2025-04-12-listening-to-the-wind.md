@@ -12,7 +12,7 @@ toc: false
 京师春夜，风尤猛厉。薄暮时尚觉其轻拂耳鬓，不甚在意，但已见「黑云压城城欲摧」[^1]之势；及至子夜[^2]，则气势陡壮，如千骑奔袭，挟雷霆而来。初闻远处呜呜作响，如怒潮涌来，俄顷之间，竟已抵窗而过，撞门而入。
 
 <figure markdown="0">
-  <img src="{{ '/assets/images/tangyin-spring-thunder-bamboo.jpg' | relative_url }}" alt="扇面水墨画：一丛竹在风中向左倾伏，竹叶浓淡相间，作被风吹卷之态" width="1600" height="752" loading="lazy">
+  <img src="{{ '/assets/images/tangyin-spring-thunder-bamboo.jpg' | relative_url }}" alt="扇面水墨画：一丛竹在风中向左倾伏，竹叶浓淡相间，作被风吹卷之态" width="1600" height="752">
   <figcaption>明 · 唐寅《春雷风竹图》扇页。金笺水墨，美国大都会艺术博物馆藏（Open Access, CC0），图像来自 Wikimedia Commons。</figcaption>
 </figure>
 

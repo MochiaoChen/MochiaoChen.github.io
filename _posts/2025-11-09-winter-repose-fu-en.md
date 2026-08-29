@@ -12,7 +12,7 @@ toc: false
 ---
 
 <figure markdown="0">
-  <img src="{{ '/assets/images/wuhou-gaowo.jpg' | relative_url }}" alt="Ink painting: an old man in loose robes reclines on a slope beneath a bamboo grove, his head propped on one hand, eyes closed" width="1600" height="1089" loading="lazy">
+  <img src="{{ '/assets/images/wuhou-gaowo.jpg' | relative_url }}" alt="Ink painting: an old man in loose robes reclines on a slope beneath a bamboo grove, his head propped on one hand, eyes closed" width="1600" height="1089">
   <figcaption>Xuande Emperor (Zhu Zhanji), <em>Zhuge Liang Reclining</em>, handscroll (detail), Ming dynasty. Ink on paper, 27.7 × 40.5 cm, Palace Museum, Beijing. Public domain, via Wikimedia Commons.</figcaption>
 </figure>
 
