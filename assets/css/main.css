@@ -140,7 +140,7 @@ button, input, textarea, select { font: inherit; }
 .prose h3 { margin: 3.2rem 0 1rem; font-size: 1.65rem; }
 .prose h4 { margin: 2.5rem 0 .8rem; font-size: 1.25rem; font-style: italic; }
 .prose p { margin: 1.3rem 0; }
-.prose > p:first-child { font-size: 1.22rem; }
+.prose > p:first-child { min-height: 3.35em; font-size: 1.22rem; }
 .prose > p:first-child::first-letter { float: left; margin: .06em .1em 0 0; color: var(--accent); font-size: 4.2em; line-height: .72; }
 .prose a { color: var(--accent); text-decoration-color: var(--accent-soft); }
 .prose strong { font-weight: 700; }
