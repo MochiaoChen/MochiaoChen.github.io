@@ -11,7 +11,7 @@ layout: default
     <span data-reading-time>{% if page.lang == 'en' %}Reading time{% else %}阅读时间{% endif %}</span>
   </div>
 </header>
-<div class="article-shell wrap">
+<div class="article-shell wrap{% unless page.toc %} article-shell--no-toc{% endunless %}">
   {% if page.toc %}
   <aside class="toc-panel" aria-label="Table of contents">
     <p class="toc-panel__title">{% if page.lang == 'en' %}Contents{% else %}文章目录{% endif %}</p>
