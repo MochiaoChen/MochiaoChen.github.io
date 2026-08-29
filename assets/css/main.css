@@ -161,6 +161,11 @@ button, input, textarea, select { font: inherit; }
 .prose hr { width: 30%; margin: 4rem auto; border: 0; border-top: 1px solid var(--accent); }
 .prose figure { margin: 2.5rem 0; }
 .prose figcaption { margin-top: .6rem; color: var(--ink-soft); font-family: var(--sans); font-size: .7rem; line-height: 1.5; }
+.prose .verse { margin: 2.8rem 0; font-size: 1.2rem; line-height: 2.15; letter-spacing: .06em; text-align: center; }
+.prose .verse p { margin: 0; font: inherit; letter-spacing: inherit; }
+.prose .verse--flush, .prose .verse--flush p { letter-spacing: .02em; text-align: left; }
+.prose .postscript { margin: 2.8rem 0; padding-left: 1.4rem; border-left: 1px solid var(--rule); color: var(--ink-soft); font-size: .96rem; line-height: 1.95; }
+.prose .postscript p { margin: .55rem 0; }
 .prose details { margin: 2rem 0; padding: 1rem 1.2rem; border: 1px solid var(--rule); background: color-mix(in srgb, var(--paper-deep) 45%, transparent); }
 .prose summary { cursor: pointer; font-weight: 700; }
 .prose mark { padding: .04em .18em; color: inherit; background: color-mix(in srgb, var(--accent) 24%, transparent); }
