@@ -5,6 +5,7 @@ date: 2026-10-06 00:00:00 +0800
 date_label: "2026.10.06"
 categories: [思想随笔]
 tags: ["哲学", "生活", "人工智能"]
+translation_url: /en/writing/2026/10/life-in-the-concrete/
 toc: true
 ---
 

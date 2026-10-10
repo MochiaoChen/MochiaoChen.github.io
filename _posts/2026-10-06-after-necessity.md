@@ -5,6 +5,7 @@ date: 2026-10-06 00:30:00 +0800
 date_label: "2026.10.06"
 categories: [思想随笔]
 tags: ["AGI", "劳动", "闲暇", "政治经济学"]
+translation_url: /en/writing/2026/10/after-necessity/
 toc: true
 ---
 

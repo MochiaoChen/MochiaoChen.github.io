@@ -5,6 +5,7 @@ date: 2026-10-06 00:30:00 +0800
 date_label: "2026.10.06"
 categories: [经济学]
 tags: ["杰文斯悖论", "能源", "回弹效应"]
+translation_url: /en/writing/2026/10/jevons-paradox/
 toc: true
 math: true
 ---

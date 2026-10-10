@@ -5,6 +5,7 @@ date: 2026-10-06 00:00:00 +0800
 date_label: "2026.10.06"
 categories: [人工智能]
 tags: ["语言模型", "技术史", "GPT"]
+translation_url: /en/writing/2026/10/the-next-word/
 toc: true
 math: true
 ---
