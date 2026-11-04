@@ -1,6 +1,6 @@
 ---
-title: "Stop Drawing Ten-Year Roadmaps: Career Planning in the AI Age"
-description: "Turn career planning from a fixed route into a system for experimenting, learning, and updating your judgment."
+title: "Stop Drawing Ten-Year Roadmaps"
+description: "Why career planning broke, why it was always broken, and what to do instead"
 date: 2026-11-04 23:30:00 +0800
 date_label: "2026.11.04"
 categories: [Reflections]
@@ -11,340 +11,350 @@ translation_url: /writing/2026/11/career-planning-in-the-ai-age/
 toc: true
 ---
 
-> What this era rewards is no longer a certain answer, but a good algorithm for updating it.
+---
 
-------
+Every job interviewer has a favorite question, and for decades one of the most popular has been: *"Where do you see yourself in five years?"*
 
-## Introduction: What happened to a “perfect” plan
+It's a strange question when you think about it. It assumes the candidate can see five years ahead. It assumes the job they're interviewing for will still look roughly the same in five years. And it assumes that having a crisp answer is a sign of seriousness rather than a sign of not paying attention.
 
-Let me start with a hypothetical story that feels very real.
+I want to argue that all three assumptions are now wrong, that the first one was always wrong, and that the way most of us were taught to plan our careers needs to be rebuilt from the ground up.
 
-In the summer of 2022, a student who had done well on China's college entrance examination sat down to plan his career before choosing a university major. He read employment reports, talked to older students, and took a Holland interest assessment. The conclusion was clear: **study computing**. The reasoning seemed unassailable: high salaries, strong demand, rapid growth. For the previous decade, computing had topped virtually every list of degrees worth pursuing.
+---
 
-Given the information available in 2022, this was almost a perfect answer.
+## A perfect plan, and what happened to it
 
-Four years later, he graduated. Data on the labor market for recent graduates released by the New York Fed in 2026 put overall unemployment at around 5.6%, while computer engineering was around 7.5–7.8% and computer science around 6–7%, among the highest rates across majors. In one release, they even exceeded the rates for philosophy and art history, subjects traditionally considered poor bets for employment.
+Picture a smart, conscientious high school senior in the spring of 2022. They're about to choose a major, and they do it the responsible way. They read the salary data. They talk to people a few years ahead of them. They take the career assessment their school counselor recommends. Everything points the same direction. "Learn to code" has been the most repeated piece of career advice of the past decade. Computer science it is.
 
-What went wrong? His method was sound, and so was the information. The problem was a deeply buried assumption: **once the plan was finished, the world would stay roughly the same.**
+Given what anyone knew in 2022, this was close to a perfect plan.
 
-That assumption held well enough for decades that few people noticed it. Now it no longer does.
+Four years later, they graduate. The New York Fed's tracker of recent college graduates puts their overall unemployment rate at about 5.6%. For computer engineering majors it's around 7.5% to 7.8%; for computer science, roughly 6% to 7%. That puts the two "safest" majors of the 2010s near the top of the unemployment table. In one release, they were doing worse than philosophy and art history, the punchlines of a thousand jokes about useless degrees.
 
-This essay tries to explain three things:
+Our student didn't make a mistake. The method was sound and the information was accurate. What failed was an assumption so deeply buried that nobody thought to examine it: **that once you've made your plan, the world will hold still long enough for you to carry it out.**
 
-1. Why familiar methods of career planning fail in the AI age.
-2. Why, even without AI, nobody could really get career planning “right.”
-3. How to plan if planning still matters.
+For most of the past half-century, that assumption was close enough to true that it didn't matter. It doesn't hold anymore.
 
-------
+This essay is about three things:
 
-## Part I: Why the old map no longer works
+1. Why the standard model of career planning fails in the age of AI.
+2. Why, even without AI, nobody could ever really do career planning well.
+3. What a better approach looks like.
 
-Whatever its packaging, conventional career planning usually follows the same sequence:
+---
 
-> Understand yourself through personality and interest assessments → understand occupations through industry and job research → find a match → map out milestones for three or five years ahead → execute.
+## Part One: The Old Map
 
-This approach is known as person–job matching. Its founding figure was Frank Parsons in 1909; Holland later developed the familiar hexagonal model. For more than a century, this has been the underlying operating system of career guidance.
+Strip away the branding and almost every career planning method you've encountered runs on the same basic script:
 
-It rests on three assumptions. In the AI age, all three are being shaken at once.
+> Understand yourself (personality tests, interest inventories) → Understand the world of work (industry research, job descriptions) → Find the best match → Map out a path (where you'll be in three years, in five) → Execute.
 
-### Assumption 1: Occupations are stable boxes
+This model goes back to Frank Parsons, a Boston reformer who laid it out in 1909. John Holland turned it into his famous six-letter personality code, and *What Color Is Your Parachute?* turned it into one of the bestselling self-help books of all time. For over a century it has been the operating system underneath career counseling.
 
-Person–job matching imagines the world as rows of boxes, each representing an occupation. Your job is to find the one that fits you best and step inside.
+It rests on three hidden assumptions. All three are breaking at once.
 
-The trouble is that the boxes themselves are changing shape.
+### Hidden assumption #1: Jobs are stable boxes
 
-The World Economic Forum's *Future of Jobs Report 2025*, based on a survey of more than a thousand employers across 55 economies, estimates that 39% of workers' core skills will change by 2030. Over the same period, approximately 170 million jobs will be created and 92 million displaced. Within five years, many boxes will disappear and new ones will emerge.
+The matching model imagines the world of work as a wall of boxes. Each box is an occupation. Your task is to find the one that fits you and climb in.
 
-What do the new boxes look like? Consider the forward deployed engineer, or FDE. Originally an internal job title at Palantir, it was unfamiliar to most people only a few years ago. According to figures attributed to Indeed, US postings for these roles rose from 643 in April 2025 to 5,330 in April 2026, an increase of roughly sevenfold. In India, the increase over the same period was nearly nineteenfold.
+But the boxes are changing shape.
 
-What does the job involve? An unusual combination: you need to write code, sit in a client's meeting room and work out where the business is stuck, and then make AI work inside the client's actual processes. You will not find it in a conventional occupational directory. It crosses several boxes.
+The World Economic Forum's *Future of Jobs Report 2025*, based on a survey of more than 1,000 employers in 55 economies, projects that 39% of workers' core skills will change by 2030. Over the same period it expects about 170 million jobs to be created and about 92 million to be displaced. A large share of the boxes will disappear within five years, and a batch of new ones will appear.
 
-So **the job you are planning for today may not exist in five years, while the job you actually take in five years may not yet have a name.**
+What do the new boxes look like? Consider the forward deployed engineer. The title began as internal jargon at Palantir; a few years ago almost nobody outside the company had heard it. According to Indeed, U.S. postings for the role jumped from 643 in April 2025 to 5,330 in April 2026, roughly eight times as many in a single year.
 
-### Assumption 2: A career is a ladder
+The job is a strange hybrid. You need to write production code, but you also need to sit in a client's conference room, figure out what's actually broken in their business, and get AI systems working inside their real workflows. It doesn't fit any category in a traditional occupational database. It isn't a box. It cuts across several.
 
-The second assumption is that career development means climbing a ladder. You begin with routine work: making copies, organizing data, drafting documents, building slides. Through that work, you learn how the industry operates and gradually move up.
+Which means the job you're planning toward today may not exist in five years, and the job you'll actually hold in five years may not have a name yet.
 
-The problem is that **the bottom rungs are being cut away.**
+### Hidden assumption #2: Careers are ladders
 
-Erik Brynjolfsson's team at the Stanford Digital Economy Lab used payroll records covering millions of workers from ADP, a major US payroll provider, for a study aptly titled *Canaries in the Coal Mine*. Its August 2026 revision reported that:
+The second assumption is that a career is a ladder. You start at the bottom with grunt work: the data cleanup, the first drafts, the slide formatting, the doc review. By doing that work, you absorb how the industry really operates, and you climb one rung at a time.
 
-- In occupations with the highest AI exposure, employment among 22- to 25-year-olds was **about 19% below** the level implied by keeping pace with peers in low-exposure occupations.
-- The gap had been 15% in the July 2025 data and had continued to widen.
-- Experienced workers showed **no comparable gap**.
-- The adjustment occurred mainly through **reduced hiring**, rather than layoffs.
-- The largest effects appeared in occupations relying on “codified knowledge”: knowledge that can be written into textbooks and taught through standardized procedures.
+The problem is that **someone is sawing off the bottom rungs.**
 
-Two Harvard economists, Guy Lichtinger and Seyed Mahdi Hosseini, reached a similar conclusion with another dataset. They analyzed résumé data covering 285,000 US firms and about 62 million workers between 2015 and 2025. From the first quarter of 2023, firms adopting generative AI saw junior headcounts fall relative to non-adopters, while senior headcounts continued to grow. They called this **seniority-biased technological change**.
+Erik Brynjolfsson and his colleagues at the Stanford Digital Economy Lab used payroll records from ADP, the largest payroll processor in the U.S., covering millions of workers, to look at who is and isn't getting hired. Their paper is titled *Canaries in the Coal Mine?*, and the August 2026 revision found that:
 
-Another finding is particularly uncomfortable. When graduates were grouped by university tier, the largest effects appeared neither among graduates of elite institutions nor among those from the lowest-ranked institutions, but in the **middle**. Elite graduates have a strong signal; the lowest-tier jobs may not yet be attractive targets for AI substitution. The awkward position is the middle ground: highly standardized work without a scarce credential.
+- Among the most AI-exposed occupations, employment of workers aged 22 to 25 is now about **19% below** where it would be if it had tracked their peers in less-exposed jobs.
+- That gap was 15% a year earlier, and it has widened steadily.
+- Experienced workers in the same occupations show **no comparable gap**.
+- The adjustment is happening mainly through **fewer new hires**, not through layoffs.
+- The hardest-hit jobs are those built on "codified knowledge," the kind of formal, standardized knowledge you can learn from a textbook or a written procedure.
 
-Taken together, these findings expose a fundamental weakness in the old model: **it assumes you can start with routine work and learn through doing it. But routine work is exactly what AI takes over first.**
+Two Harvard economists, Guy Lichtinger and Seyed Mahdi Hosseini, found almost the same pattern using a completely different dataset: résumés covering about 62 million workers at 285,000 U.S. companies from 2015 to 2025. Starting in early 2023, firms that adopted generative AI saw junior employment fall sharply compared with firms that hadn't, while senior employment kept rising. They call it **seniority-biased technological change**.
 
-Anthropic's 2025 internal survey of 132 engineers and researchers offered a telling illustration. Respondents generally felt they were producing more and becoming more “full-stack.” At the same time, some worried that AI reduced senior employees' incentives and opportunities to mentor newcomers, and that their own core skills might deteriorate.
+One detail from that study deserves attention. When they sorted graduates by the tier of school they attended, the biggest drop wasn't among graduates of elite universities or the least selective ones. It was in the **middle**. Elite graduates carry a strong signal. The lowest-paid work often isn't worth automating yet. The squeeze lands on work that is highly standardized but comes with no scarce credential attached, which describes a lot of entry-level white-collar jobs held by a lot of perfectly capable graduates.
 
-Apprenticeship is one of humanity's oldest ways of passing on tacit knowledge. Cracks are appearing in that conveyor belt.
+The pattern isn't confined to the U.S. In the U.K., Indeed reported in mid-2026 that graduate job postings had fallen to their lowest level for that time of year since the pandemic. The job site Adzuna counted 8,383 graduate vacancies in July 2026, down from 15,397 a year earlier.
 
-To be fair, Brynjolfsson's team emphasizes that these are descriptive early signals, not rigorous causal estimates. They have not observed widespread displacement across the economy. Economists such as MIT's Daron Acemoglu have also remained skeptical about AI's productivity effects. But for a young person planning a career, the fact that the canary has started coughing is already a signal worth taking seriously.
+Put this together and you can see the fatal flaw in the old model. **It assumes you learn the craft by doing the grunt work. But the grunt work is exactly what AI takes first.**
 
-### Assumption 3: The world changes more slowly than your planning cycle
+In 2025, Anthropic surveyed 132 of its own engineers and researchers about how AI was changing their jobs. They reported getting more done and becoming more "full-stack," able to do good work outside their usual specialty. But some also worried that senior people had less reason to mentor juniors when they could just ask an AI, and that their own core skills were starting to atrophy.
 
-This is the most fundamental assumption.
+Apprenticeship is humanity's oldest technology for transmitting tacit knowledge. That conveyor belt now has a crack in it.
 
-A career plan usually spans three to ten years. It presumes that changes over that period will be gradual enough to extrapolate in a roughly linear way.
+A note on fairness. Brynjolfsson's team describes these findings as early, descriptive signals, not tight causal estimates, and they see no evidence of widespread job loss across the whole economy. The hiring picture is noisy: the National Association of Colleges and Employers, for example, saw employers' projected hiring for the Class of 2026 rise from a flat 1.6% in the fall to 5.6% by spring. Economists like MIT's Daron Acemoglu remain skeptical that AI's productivity gains are as large as its boosters claim. But if you're 20 years old and planning your career, the fact that the canaries have started coughing should be enough to get your attention.
 
-How fast is AI changing?
+### Hidden assumption #3: The world changes more slowly than your plan
 
-The research organization METR measures the length of tasks AI can complete independently. Its metric asks how long a human expert would need for a task that an AI system can finish autonomously with a 50% probability of success. Its 2025 research found that this duration roughly doubled every **seven months** between 2019 and 2024. A January 2026 update estimated a shorter doubling time after 2023: around **130 days, or a little over four months**.
+This is the deepest one.
 
-Consider the arithmetic. An undergraduate degree lasts 48 months. If that trend continued, it would allow more than ten doublings. Two to the tenth power is 1,024.
+A career plan typically spans three to ten years. It only works if the environment changes slowly enough over that span that you can extrapolate in straight lines.
 
-I am not claiming the curve will continue indefinitely. METR itself notes limitations in the measurement and large uncertainties around estimates for long tasks. But even with a substantial discount, the implication is hard to ignore: **your planning cycle is measured in years, while the environment's “half-life” is measured in months.**
+So how fast is AI changing?
 
-It is like driving with a paper map through a city that rebuilds its roads every month. However beautifully drawn, the map can only help so much.
+A research group called METR tracks one specific measure: how long a task an AI system can complete on its own. More precisely, for tasks measured by how long they take a skilled human, what's the length at which the AI succeeds half the time? Their 2025 research found that from 2019 to 2024, this number doubled about every **seven months**. In a January 2026 update, they estimated that since 2023 the doubling time has shortened to roughly **130 days**, a little over four months.
 
-China is no exception. The number of university graduates in the class of 2026 is projected at 12.7 million, up 480,000 from the previous cohort and another record high. An analysis published on the National Development and Reform Commission's website explicitly identifies AI as a deeper influence on employment, pointing to video models released in 2026 and the substitution pressure they create for workers in short-form video and cross-border e-commerce advertising.
+Run the numbers. A four-year degree lasts 48 months. If that trend holds, that's more than ten doublings while you're in school. Two to the tenth power is 1,024.
 
-------
+I'm not claiming the curve will continue like this. METR itself cautions that its measurements have limits and its estimates for longer tasks carry wide error bars. But even after a generous discount, one thing is obvious: **your plan is measured in years, while the half-life of your environment is measured in months.**
 
-## Part II: Even without AI, planning was never something we could get right
+It's like navigating a city that rebuilds its streets every month, using a beautifully printed paper map.
 
-At this point, you might think the solution is simply to factor AI into a new career plan.
+Some of the people building the technology are making forecasts that would have sounded absurd a few years ago. In May 2025, Anthropic CEO Dario Amodei told Axios that AI could eliminate half of all entry-level white-collar jobs and push unemployment to 10% to 20% within one to five years. You don't have to believe that forecast. I'll argue below that you shouldn't believe *any* confident forecast. But the fact that serious people are making it tells you how wide the range of plausible futures has become.
 
-I want to make a more fundamental argument: **nobody could ever really get career planning “right.” AI has simply made a longstanding problem harder to overlook.**
+---
 
-Why? Because a long-term plan requires you to predict two things: the future world and your future self. Humans are bad at predicting both.
+## Part Two: Career Planning Was Always Broken
 
-### You cannot predict the world
+At this point, the obvious move is to write a new plan that accounts for AI. An AI-aware five-year roadmap. Problem solved?
 
-The psychologist Philip Tetlock at the University of Pennsylvania conducted a famous study involving 284 experts whose work included forecasting: economists, political scientists, intelligence analysts, and journalists. Over roughly two decades, he collected about 28,000 predictions and waited to see what happened.
+No. I want to make a stronger claim: **nobody has ever been able to do career planning well. AI has simply made an old problem impossible to ignore.**
 
-The results were uncomfortable. On average, the experts performed only a little better than chance, and sometimes worse than simple extrapolation such as assuming next year would resemble this year. The popular shorthand was that experts could not beat a dart-throwing chimpanzee.
+A long-term career plan requires you to predict two things: the future world, and your future self. Humans are bad at both.
 
-More interestingly, Tetlock distinguished two kinds of experts: “hedgehogs” and “foxes.” Hedgehogs rely on one big theory, explain everything through it, and speak with certainty. Foxes know many smaller things, acknowledge uncertainty, and keep revising their views. **Hedgehogs made the worst forecasts, yet were especially popular with the media. Foxes did better.**
+### You can't predict the world
 
-If professional forecasters cannot reliably predict geopolitics five years out, why should you be able to predict which industry will need workers or which role will command a premium?
+In the 1980s, the psychologist Philip Tetlock started one of the most ambitious studies of forecasting ever attempted. He recruited 284 people whose jobs involved making predictions: economists, political scientists, intelligence analysts, journalists. Over roughly two decades he collected around 28,000 of their forecasts and then checked them against what actually happened.
 
-A conventional career plan often reads like a hedgehog document: one central narrative, one clear path, one definite destination.
+The average expert did only slightly better than chance, and worse than simple rules of the "next year will look like this year" variety. The finding became famous through one image: the experts couldn't reliably beat a dart-throwing chimpanzee.
 
-### You cannot predict yourself
+The more interesting result was a split within the experts. Tetlock borrowed an old line from the philosopher Isaiah Berlin, "the fox knows many things, but the hedgehog knows one big thing," and sorted his forecasters accordingly. Hedgehogs had one big theory and used it to explain everything. Foxes drew on many small ideas, admitted uncertainty, and kept revising. **The hedgehogs were the worst forecasters, and they were also the ones the media loved to book. The foxes did better.**
 
-Predicting the world may be difficult, but surely predicting yourself is easier. After all, who knows you better?
+Now think about what a traditional career plan is. One core narrative. One clear path. One destination. It's a hedgehog document.
 
-Unfortunately, that is difficult too.
+If professional forecasters can't predict geopolitics five years out, there's little reason to think you can predict which industries will be hiring, or which skills will pay, in 2031.
 
-In a 2013 paper in *Science*, Harvard psychologist Daniel Gilbert and his colleagues surveyed more than 19,000 people aged 18 to 68. Some recalled how much their personalities, values, and preferences had changed over the previous decade; others predicted how much they would change over the next one.
+### You can't predict yourself
 
-The result: **at every age, people believed they had changed substantially in the past but would change relatively little in the future.** Eighteen-year-olds thought this, and so did fifty-year-olds. The researchers called it the “end of history illusion”: we imagine that our present self is the final version, that history ends today.
+Fine, you might say, the world is unpredictable. But surely I can predict myself?
 
-For precision, the study used cross-sectional data rather than following the same people over time, and its methods have attracted criticism. But the broad idea that people underestimate their future changes is consistent with other research.
+Unfortunately, no.
 
-For career planning, the implication is that a ten-year plan based on what you currently love and do well makes decisions on behalf of a future person you do not yet know. Today's passion is a snapshot.
+In 2013, Harvard psychologist Daniel Gilbert and his colleagues published a study in *Science* involving more than 19,000 people between the ages of 18 and 68. They asked some participants how much their personalities, values, and preferences had changed over the past ten years. They asked others how much they expected to change over the next ten.
 
-### You cannot think your way to the answer
+**At every age, people believed they had changed a lot in the past and would change relatively little in the future.** Eighteen-year-olds believed it. Fifty-year-olds believed it. The researchers called it the "end of history illusion": the persistent sense that the person you are right now is the finished version.
 
-The old model contains another, less visible assumption: **first figure it out, then act.** Use assessments, reflection, and analysis to determine what suits you, then execute.
+(In fairness, the study compared different people at different ages rather than tracking the same people over time, and it has drawn some methodological criticism. But the core finding, that people underestimate how much they'll change, fits with a lot of other research.)
 
-INSEAD professor Herminia Ibarra studied many people who successfully changed careers and wrote *Working Identity*. Her central finding was that **successful transitions rarely began with complete clarity followed by action**. People tried things, met new people, and undertook small projects. Through action, they gradually learned what they wanted.
+The implication for career planning is uncomfortable. A ten-year plan built on what you're passionate about today is a decision made on behalf of someone you haven't met yet. Your current passion is a snapshot, not a forecast.
 
-She contrasted the traditional “plan and implement” approach with “test and learn.” A professional identity is made through action rather than simply discovered.
+### You can't think your way to the answer
 
-This is counterintuitive. We imagine a “true self” inside us, waiting to be found. The reality is closer to this: **you are an experiment in progress.**
+The old model has one more quiet assumption: figure it out first, then act. Reflect, assess, analyze. Once you know what fits, go execute.
+
+Herminia Ibarra, then a professor at INSEAD, studied professionals who made successful career changes and wrote up her findings in *Working Identity*. Her central conclusion: **the people who changed careers successfully almost never figured it out first and then acted.** They acted first. They tried things, met people outside their usual circles, took on small side projects, and gradually discovered what they wanted by doing it.
+
+She contrasts the conventional approach, "plan and implement," with what actually works: "test and learn." A professional identity isn't something you find by looking inward. It's something you build by doing.
+
+This runs against a deep intuition, the idea that there's a "true self" inside you, an answer waiting to be found. The reality is closer to this: **you are not an answer waiting to be discovered. You are an experiment already in progress.**
+
+Steve Jobs made a version of this point in his 2005 Stanford commencement speech: "You can't connect the dots looking forward." Most people quote that line as inspiration. It's better read as a description of how careers work.
 
 ### Chance plays the leading role
 
-There is one more fact that career-planning textbooks rarely emphasize: chance events often determine the course of a career.
+There's one more fact that career textbooks tend to downplay: much of what shapes a career is luck.
 
-In an influential 1999 paper, Stanford career psychologist John Krumboltz and his coauthors proposed the theory of “planned happenstance.” They identified a contradiction: chance plays an important role in people's careers, yet career counseling has traditionally tried to eliminate chance from decision-making.
+In 1999, the Stanford career psychologist John Krumboltz and his colleagues published an influential paper introducing an idea called "planned happenstance." They pointed out a contradiction. Chance plays a major role in everyone's career, yet career counseling has traditionally treated its job as *removing* chance from decision-making.
 
-Krumboltz's observation was simple: few adults do exactly the work they planned to do at eighteen.
+Krumboltz liked to point out that very few adults are doing what they planned to do at 18.
 
-Think about people you know whose careers have gone well. How many say, “I planned this ten years ago”? How many say, “I happened to meet someone, work on a project, or come across an opportunity”?
+Think about the people you know whose careers have gone well. How many of their stories begin with "I planned this ten years ago"? And how many begin with "I happened to meet someone," or "a project landed on my desk," or "a door opened that I didn't know existed"?
 
-### This is not a forecasting problem
+### The real lesson: this isn't a prediction problem
 
-In 1921, economist Frank Knight distinguished risk from uncertainty. Under risk, you know the possible outcomes and their probabilities, as with rolling a die. Under uncertainty, you may not even know the full set of possibilities.
+In 1921, the economist Frank Knight drew a distinction that is still underappreciated. *Risk* is when you know the possible outcomes and their probabilities, like a dice roll. *Uncertainty* is when you don't even know what the possible outcomes are.
 
-Traditional career planning treats a career choice as a problem of risk: list the options, assess the probabilities, choose the optimum. But career choice is fundamentally a problem of uncertainty. **Under uncertainty, finding the optimal answer is itself the wrong objective.**
+Traditional career planning treats career choice as a problem of risk: list the options, weigh the odds, pick the best. But career choice is a problem of uncertainty. **Under uncertainty, "find the optimal answer" is the wrong goal.**
 
-So when I say nobody can get career planning right, I do not mean that people lack effort or intelligence. The structure of the problem prevents it from being solved through prediction and optimization alone.
+So when I say nobody can do career planning well, I don't mean people aren't working hard enough. I mean the structure of the problem makes it unsolvable by "predict, then optimize."
 
-------
+---
 
-## Part III: How should we plan, then?
+## Part Three: What to Do Instead
 
-This may sound discouraging. If you cannot predict either the world or yourself, why not just take life as it comes?
+If you can predict neither the world nor yourself, should you just wing it?
 
-That does not work either. Abandoning planning and insisting on a definite plan are opposite extremes of the same mistake.
+No. "Don't plan" and "commit to a fixed plan" are two versions of the same mistake.
 
-My suggestion is to **change the object of planning from a route to a system**.
+What I'd suggest instead is a change in what you're planning: **build a system, not a route.**
 
-The old approach resembles GPS navigation: enter a destination, receive a route, and follow it. The new approach resembles an experienced sailor. There is no fixed course, but there is a compass for direction, radar for nearby conditions, a boat that can change course, and a habit of regularly checking the position.
+The old kind of plan is GPS. You type in a destination, get turn-by-turn directions, and follow them. The new kind is closer to how an experienced sailor works. There's no fixed route. There's a compass for general direction, instruments for reading conditions, a boat nimble enough to change course, and a habit of checking position regularly.
 
-Here are six principles for putting that into practice.
+Here are six principles for building that system.
 
-### Principle 1: Define your direction through a problem rather than a job title
+### 1. Define your direction by a problem, not a job title
 
-Jobs can disappear. Problems endure.
+Job titles disappear. Problems don't.
 
-“I want to become a bank loan officer” is a job target. That role may be substantially reshaped by AI during your working life.
+"I want to be a junior financial analyst" is a job-title goal. That role is likely to be reshaped heavily by AI over the course of your career.
 
-“I want to make it easier and fairer for small businesses to obtain credit” is a problem target. That problem will still exist in twenty years, and you can address it through many roles: loan officer, risk modeler, fintech product manager, regulatory researcher, or founder.
+"I want to help small businesses get access to capital" is a problem goal. That problem will still exist in twenty years, and you can work on it from many positions: as an analyst, a risk modeler, a fintech product manager, a policy researcher, or a founder.
 
-Why did demand for FDEs suddenly grow? Because a problem emerged: businesses bought AI but struggled to put it to work. Jobs emerge from problems. **People who follow problems naturally find themselves where new roles are being created. People who follow job titles have to wait for the roles to appear in a directory.**
+Why did the forward deployed engineer role suddenly appear everywhere? Because a problem appeared first: companies bought AI and couldn't make it work. Jobs are by-products of problems. **People who stay close to a problem tend to be standing where new jobs are born. People who fixate on a title wait for that title to show up on a job board.**
 
-The first question, then, is which problem you would be willing to spend ten years working on.
+So the first question isn't "what job do I want?" It's "what problem am I willing to work on for the next ten years?"
 
-### Principle 2: Replace costly commitments with inexpensive experiments
+### 2. Replace big decisions with cheap experiments
 
-If thinking alone cannot tell you the answer, learn by doing.
+If you can't think your way to the answer, act your way there.
 
-Bill Burnett and Dave Evans developed a popular course at Stanford's design school and later wrote *Designing Your Life*. One exercise, the Odyssey Plan, asks you to imagine three very different versions of the next five years. The first follows your current path. The second asks what you would do if that path disappeared. The third asks what you would do if money and other people's opinions were no constraint.
+Bill Burnett and Dave Evans teach one of Stanford's most popular courses, which became the bestseller *Designing Your Life*. One of its exercises is the "Odyssey Plan." You sketch three radically different versions of your next five years. The first is the path you're already on. The second is what you'd do if that path suddenly vanished. The third is what you'd do if money and other people's opinions didn't matter.
 
-Then, rather than simply choosing one, **design small prototype experiences for each**: talk to someone living that life, spend a weekend on a related project, or try a month-long internship.
+The point is **not to pick one**. It's to design small "prototype" experiments for each: a conversation with someone already living that life, a weekend project in that field, a short internship.
 
-The crucial change is that **AI has sharply reduced the cost of these experiments**.
+Here's what has changed: **AI has made these experiments radically cheaper.**
 
-Consider an extreme example. Israeli developer Maor Shlomo began building Base44, a natural-language software creation tool, as a side project in early 2025. He raised no outside capital and worked mostly alone. Six months later, Wix acquired it for $80 million in cash. Israeli technology reporting later put its annual recurring revenue at $100 million nine months after the acquisition.
+Consider an extreme example. In early 2025, an Israeli developer named Maor Shlomo started building Base44, a tool that lets people create software by describing it in plain English, as a side project. He took no outside funding and did most of the work himself. Six months later, Wix bought it for $80 million in cash. According to the Israeli business outlet Calcalist, Base44 was generating $100 million in annual recurring revenue nine months after the deal.
 
-The point is not that everyone should start a company. Exceptional success stories carry substantial survivorship bias. The useful lesson is that **the barrier to making something real has become extraordinarily low**.
+I'm not telling you this so you'll go start a company. Stories like this come with enormous survivorship bias. The point is narrower: **the cost of building something real has never been lower.**
 
-Ten years ago, a finance student wondering whether product work suited them might have needed two years of programming study or an engineer willing to collaborate. Today, they can use AI over a weekend to make a working prototype, put it in front of ten real users, and see whether they enjoy the process.
+Ten years ago, a finance major curious about product work would have needed two years of programming or a willing engineering friend. Today they can build a working prototype over a weekend with AI tools, put it in front of ten real users, and find out whether they actually enjoy the work.
 
-**Career choice used to require a large bet. Increasingly, it can involve many small bets.** The faster and more cheaply you can experiment, the sooner you can learn.
+Career choice used to be one big bet. Now it can be many small ones. Whoever runs experiments faster and more cheaply learns faster.
 
-### Principle 3: Position yourself where AI augments people
+### 3. Get on the "augmented" side, not the "automated" side
 
-AI does not affect every kind of work equally.
+AI doesn't affect all work the same way.
 
-Brynjolfsson's study found an important distinction: young workers' employment declined in occupations where AI was used mainly for **automation**, while it held steady or rose where AI was used mainly for **augmentation**.
+The Stanford canaries research has another important finding. In occupations where AI is mostly used to **automate** tasks, employment of young workers is falling. In occupations where AI mostly **augments** people, employment is flat or rising.
 
-The same technology replaces some people and amplifies others. What makes the difference?
+Same technology. Some people get replaced by it; others get amplified. What's the difference?
 
-In 2023, Harvard Business School researchers and Boston Consulting Group conducted an experiment involving 758 BCG consultants. Participants were randomly assigned to work with or without GPT-4. On tasks within AI's capabilities, users completed 12.2% more tasks, worked 25.1% faster, and produced work of more than 40% higher quality. Those who initially performed worst gained the most.
+In 2023, researchers from Harvard Business School and Boston Consulting Group ran an experiment with 758 BCG consultants. Some were randomly given access to GPT-4; others worked without it. On tasks inside AI's capabilities, the consultants with AI completed 12.2% more tasks, worked 25.1% faster, and produced work rated more than 40% higher in quality. The weakest performers gained the most.
 
-But the experiment also included a trap: a task that looked similarly difficult but fell outside AI's capabilities. On that task, AI users **performed worse**, because the system supplied plausible but incorrect answers that people accepted.
+But the researchers also set a trap: a task that looked similar in difficulty but fell outside what the AI could do well. On that task, consultants using AI **did worse** than those without it. The AI produced answers that sounded plausible but were wrong, and people accepted them.
 
-The researchers called this the “jagged technological frontier.” AI's boundary is uneven. Of two apparently similar tasks, it may handle one brilliantly and fail badly at the other. Wharton professor Ethan Mollick, a coauthor, argues that substantial firsthand use is necessary to learn which is which.
+The researchers coined a term for this: the "jagged technological frontier." AI's capabilities don't stop at a clean line. The boundary is jagged, so two tasks that look equally hard to a human can land on opposite sides of it. Ethan Mollick of Wharton, one of the study's co-authors, summed it up: unless you use AI a lot, you won't know which tasks are which.
 
-This points to a crucial skill: **knowing where AI's boundaries lie**. It develops through extensive use.
+That points to a crucial skill: **knowing where AI's edge is.** And the only way to develop it is through heavy, hands-on use.
 
-Anthropic's March 2026 Economic Index report offered supporting evidence. Users who had been registered with Claude for more than six months had conversation success rates about 10% higher than those of newer users, even after controlling for task type, country, and other factors. Experienced users engaged more in iteration and collaboration instead of issuing a single command. The researchers interpreted this as learning by doing.
+Anthropic's Economic Index report from March 2026 adds evidence. Users who had been on Claude for at least six months had about a 10% higher success rate in their conversations than newer users, even after accounting for the kinds of tasks they attempted, their country, and other factors. Experienced users iterated and collaborated more instead of simply issuing commands. The researchers read this as learning by doing.
 
-In a 2025 internal memo later made public, Shopify CEO Tobi Lütke told employees that fluent, instinctive AI use had become a basic expectation. Before requesting additional headcount, teams had to demonstrate that AI could not do the work. He wrote: “Reflexive AI usage is now a baseline expectation.”
+In 2025, Shopify CEO Tobi Lütke sent his entire company a memo that he later posted publicly. Its core message: "Reflexive AI usage is now a baseline expectation at Shopify." Before asking for more headcount, teams would need to show why AI couldn't do the job.
 
-The signal is clear: **using AI is becoming a basic literacy**. Like English and computer skills in the 1990s, it begins as an advantage and eventually becomes an entry requirement.
+The signal is clear. **AI fluency is turning from a nice-to-have into basic literacy**, the way spreadsheet skills did a generation ago: first an edge, then a requirement.
 
-For young people, one investment therefore looks relatively clear: **start using AI intensively on real tasks, and develop an intuition for its jagged boundaries**. That knowledge can compound over time.
+So one of the safest investments you can make right now is to **use AI intensively, on real work, and build your intuition for where the jagged edge lies.** That intuition compounds.
 
-### Principle 4: Build your own apprenticeship
+### 4. Build your own apprenticeship
 
-As discussed earlier, AI is removing the bottom rungs of the career ladder. Firms are less willing to hire newcomers for routine work. What should newcomers do?
+If the bottom rungs of the ladder are disappearing, how does anyone get started?
 
-The Harvard study offers an interesting detail. Among AI-adopting firms, junior hiring fell, but the share of junior employees **receiving promotions rose**. The entrance narrowed, but those who got inside moved up faster.
+Start with a revealing detail from the Harvard study. At firms that adopted AI, fewer juniors were hired, but the juniors who were there got **promoted faster**. The door got narrower, but the people who made it through moved up more quickly.
 
-This suggests that firms increasingly want people who can quickly take on work requiring judgment.
+That tells you what employers actually want. Not cheap labor for grunt work, but people who can quickly take on work that requires judgment.
 
-The strategy has to change: **build an apprenticeship for yourself instead of waiting for a company to provide one**.
+So the strategy has to change: **don't wait for an employer to give you an apprenticeship. Build one yourself.**
 
-There are three ways to do this.
+Three ways to do that:
 
-**First, demonstrate your ability through work you have made.** Résumé claims such as “proficient in Excel” or “strong communication skills” carry little information. A working tool, an analysis that people actually read, or a project that solves a real problem is much more persuasive. AI has lowered the barrier to making things, which also raises the cost of having made nothing.
+**Let your work speak instead of your résumé.** A résumé line like "proficient in Excel, strong communication skills" used to get you through a filter. Now it carries no information at all. What persuades is evidence: a tool that runs, an analysis that people actually read, a project that solved a real problem. AI has lowered the cost of making things, which means it has also raised the cost of having made nothing.
 
-**Second, seek tacit knowledge.** Brynjolfsson found the largest effects in occupations reliant on codified knowledge. Knowledge acquired through being present, interacting with people, and exercising experience and judgment appears relatively more resilient. Seek real settings: client meetings, factory floors, negotiations. Learn what textbooks do not capture and AI cannot simply read.
+**Move toward tacit knowledge.** The canaries research found the steepest declines in jobs built on codified knowledge. Flip that around. Knowledge that lives in experience, relationships, and judgment, the kind you only get by being in the room, is comparatively protected. So get close to where real work happens: client meetings, operations floors, negotiations, field work. Learn what isn't written down, and therefore isn't in any model's training data.
 
-**Third, deliberately practice without AI.** This complements intensive AI use. Anthropic's engineers worried that dependence could erode precisely the skills needed to supervise AI well. The BCG experiment likewise showed how blind trust can lead people astray outside the frontier. In your core field, periodically train your own judgment without AI, just as an athlete practices fundamentals. **You need enough ability to catch AI's mistakes if you want to benefit from its amplification.**
+**Practice without AI on purpose.** This sounds like it contradicts the previous principle. It doesn't. The engineers in Anthropic's survey worried that heavy reliance on AI would erode the very skills needed to supervise it. The BCG experiment showed that trusting AI blindly gets you burned beyond its edge. So in your core domain, practice regularly without assistance, the way athletes drill fundamentals. **You need to be good enough to catch the AI's mistakes before you've earned the leverage it gives you.**
 
-### Principle 5: Manage uncertainty through options
+### 5. Think in options
 
-If the future is unpredictable, a sensible strategy is to **remain reasonably well positioned across several futures, with substantial upside in some of them**.
+If you can't predict the future, the best strategy isn't to bet on one version of it. It's to **set yourself up to do reasonably well across many futures and very well in a few.**
 
-That is the logic of options. Here are a few practical applications.
+That's options thinking. A few practical tools:
 
-**Distinguish one-way from two-way doors.** Jeff Bezos popularized this distinction. Some decisions are reversible: taking an elective, trying an internship, starting a side project. Others are difficult to undo: signing a five-year service commitment or taking on substantial debt for a highly specialized degree. **Move quickly through two-way doors; take your time at one-way doors.** Young people often do the reverse, hesitating over inexpensive experiments while following the crowd into consequential commitments.
+**Distinguish one-way doors from two-way doors.** The framing is Jeff Bezos's. Some decisions are two-way doors: if you choose wrong, you can walk back through. Taking a class, trying an internship, starting a side project. Others are one-way doors that are hard to reverse: a long contractual commitment, or heavy debt for a narrow specialized degree. **Go through two-way doors quickly. Approach one-way doors slowly.** Most young people do the opposite: they agonize over cheap, reversible choices and follow the crowd on expensive, irreversible ones.
 
-**Use a barbell strategy.** In Nassim Nicholas Taleb's formulation, one end provides a secure base that keeps you in the game: solid professional competence or a dependable source of income. The other holds a few small, risky experiments with substantial potential returns. Avoid concentrating everything in a middle position that looks safe while AI steadily undermines it.
+**Use a barbell.** This idea comes from Nassim Taleb. On one end, put something solid that keeps you in the game: a real skill, a reliable income. On the other end, place a few small bets with high upside. Be wary of the middle: options that look safe but are quietly being eaten by automation.
 
-**Invest in transferable capabilities.** Some skills belong to one occupational box; others travel across many. Defining problems, building trust, explaining complexity clearly, and learning unfamiliar fields quickly are capabilities whose value can carry across different futures.
+**Invest in transferable abilities.** Some skills only work in one box. Others work in almost any. Framing problems, building trust, explaining complicated things clearly, learning new fields quickly: none of these depreciates in any future I can imagine.
 
-### Principle 6: Make planning a mechanism for updating your judgment
+### 6. Turn your plan into an update habit
 
-Finally, and most importantly, **planning should become a habit**.
+The last principle matters most: **a plan shouldn't be a document. It should be a habit.**
 
-Tetlock's later Good Judgment Project identified “superforecasters” who substantially outperformed ordinary participants and, in some comparisons, intelligence analysts. They shared a habit of **frequent, incremental updates**. When new information arrived, they adjusted rather than stubbornly holding their view or reversing it completely: 60% became 65%, or 60% became 50%.
+Tetlock went on to run an even more influential study, the Good Judgment Project, which identified "superforecasters," ordinary people who consistently out-predicted experts and even intelligence analysts. One of their defining traits was that they **updated often, and in small increments**. When new information came in, they didn't cling to their old view or throw it out entirely. They nudged a probability from 60% to 65%, or from 60% to 50%.
 
-Career planning can work the same way. Think in software versions: “My career judgment, v2026.Q4.” Release an update each quarter, recording which assumptions held, which failed, and which experiments to run next.
+Career planning should work the same way. Think of it like software versioning. Not "my life plan," but "career thesis, v2026.Q4." Ship a new version every quarter: which assumptions held up, which broke, and what you'll test next.
 
-------
+---
 
-## A one-page tool: Your career operating system
+## A one-page tool: your career operating system
 
-To put these six principles into practice, maintain one page and update it every quarter. Include five elements.
+Here's a simple way to put all of this into practice. Keep a single page and revise it every quarter. It has five sections.
 
-**1. One or two guiding problems.** What problems are you willing to work on over the long term? Name problems rather than positions.
+**1. North Star problems (one or two)**
+What problems am I willing to work on for years? Not titles. Problems.
 
-**2. Your combination of capabilities.** A useful combination often has three layers:
+**2. Capability stack**
+A durable stack tends to have three layers:
+- **A domain:** you understand how some field actually works, whether finance, healthcare, law, or logistics.
+- **A lever:** you know how to multiply your output with AI and other tools.
+- **A human edge:** judgment, taste, trust-building, persuasion, storytelling.
 
-- A domain: you understand how a field works, such as finance, healthcare, or law.
-- A means of amplification: you can use AI and other tools proficiently.
-- A human capability: judgment, taste, trust-building, or storytelling.
+Any single layer is easy to replace. All three together are rare.
 
-Any one layer on its own may be easy to substitute. The combination can be much scarcer.
+**3. This quarter's three experiments**
+For each one, write down:
+- The hypothesis (e.g., "I'd enjoy helping clients put new technology into practice").
+- The experiment (e.g., "a one-month internship on a deployment team" or "help a local business rebuild one workflow with AI").
+- The cost in time and money.
+- The result that would make you stop.
 
-**3. Three experiments for the quarter.** For each, record four things:
+**4. Radar: signals to check regularly**
+- How are job postings changing in the fields I care about?
+- What are people three to five years ahead of me doing, and what are they worried about?
+- What credible sources are tracking AI's effect on work? (Stanford's canaries indicators, for instance, now update monthly.)
 
-- What assumption am I testing? For example: “I would enjoy working with clients on technical implementation.”
-- What is the experiment? For example: “Try a month-long deployment internship at an AI company” or “Help a small business improve one workflow with AI.”
-- What will it cost in time and money?
-- What result would make me stop?
+**5. Review: where was I wrong?**
+Write down the predictions you made last quarter, such as "I think I'll like research," and compare them honestly with what happened. Being wrong early is cheap. Being wrong late is expensive.
 
-**4. Your radar: signals to watch regularly.**
+---
 
-- How are hiring requirements changing in the industries I follow?
-- What are people three to five years ahead of me doing and worrying about?
-- Which reliable datasets track AI's employment effects? One example is Stanford's regularly updated “Canaries” indicator.
+## Epilogue: The point of a plan is to recognize the future
 
-**5. A review of where you were wrong last quarter.** Write down a prediction you made, such as “I think I will enjoy research,” and honestly compare it with what happened. The sooner you discover an error, the sooner you can learn.
+Back to our computer science graduate.
 
-------
+Their mistake wasn't the plan itself. It was treating the plan as **a one-time answer** instead of **an ongoing process**. If, by sophomore year, they had been using AI heavily, noticed that routine coding was being automated, and shifted their aim from "person who writes code" to "person who uses technology to solve a specific problem," they would be in a very different position today.
 
-## Conclusion: Planning helps you recognize the future
+The biggest misconception of this moment is that uncertainty makes planning pointless. The opposite is true. **The more uncertain the world, the more you need a plan, just a different kind of plan.**
 
-Return to the computing student at the beginning.
+The old plan asked: *Where will I be in five years?*
+The new plan asks: *What do I need to be doing now so that when the world of five years from now arrives, I'll recognize it, and I'll already be ready?*
 
-His problem was treating his plan as a **one-time answer**, rather than an ongoing process. Had he begun using AI intensively in his second year, noticed the automation of coding, and shifted his direction from “someone who writes code” to “someone who uses technology to solve a particular problem,” his situation today might have been very different.
+So the next time an interviewer asks where you see yourself in five years, consider giving an honest answer: you don't know, nobody does, and here is how you've organized your life to find out faster than most people.
 
-One of this era's greatest misunderstandings is that uncertainty makes planning pointless. **The more uncertain the era, the more we need planning, but we need a different kind.**
+**Stop drawing ten-year roadmaps. Go run your next experiment.**
 
-The old question was: “Where will I be in five years?” The new question is: “How can I recognize the world that arrives in five years, and already be prepared for it?”
-
-In the spirit of Krumboltz's work, chance favors those who are prepared. Preparation here means a state of readiness: curiosity, continued action, flexibility, sensitivity to new information, and a willingness to take small risks.
-
-Career-planning competitions reward a definite story. The real world rewards a good algorithm for updating it.
-
-**Stop drawing ten-year roadmaps. Run your next experiment.**
-
-------
+---
 
 ## References
 
-1. Brynjolfsson, E., Chandar, B., & Chen, R. (2025, revised Aug 2026). *Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence.* Stanford Digital Economy Lab. https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/
-2. Stanford Digital Economy Lab (2026). No Widespread Displacement, but the AI Employment Gap for Young Workers Has Widened to 19%. https://digitaleconomy.stanford.edu/news/canariesaug26/
+1. Brynjolfsson, E., Chandar, B., & Chen, R. (2025, revised Aug. 2026). *Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence.* Stanford Digital Economy Lab. https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/
+2. Stanford Digital Economy Lab (Aug. 2026). "No Widespread Displacement, but the AI Employment Gap for Young Workers Has Widened to 19%." https://digitaleconomy.stanford.edu/news/canariesaug26/
 3. Hosseini, S. M., & Lichtinger, G. (2025). *Generative AI as Seniority-Biased Technological Change: Evidence from U.S. Résumé and Job Posting Data.* https://digitaleconomy.stanford.edu/event/seyed-m-hosseini-and-guy-lichtinger-generative-ai-as-seniority-biased-technological-change-evidence-from-u-s-resume-and-job-posting-data
 4. World Economic Forum (2025). *The Future of Jobs Report 2025.* https://www.weforum.org/reports/the-future-of-jobs-report-2025/
-5. METR (2025, updated Jan 2026). Measuring AI Ability to Complete Long Tasks / Time Horizon 1.1. https://metr.org/research
-6. Anthropic (2025). How AI is transforming work at Anthropic. https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
-7. Anthropic (2026). Anthropic Economic Index report: Learning curves. https://www.anthropic.com/research/economic-index-march-2026-report
-8. Dell'Acqua, F., et al. (2023/2026). Navigating the Jagged Technological Frontier. Harvard Business School / Organization Science.
-9. Quoidbach, J., Gilbert, D. T., & Wilson, T. D. (2013). The End of History Illusion. *Science*, 339(6115), 96–98.
+5. METR (2025; updated Jan. 2026). "Measuring AI Ability to Complete Long Tasks" / Time Horizon 1.1. https://metr.org/research
+6. Anthropic (2025). "How AI is transforming work at Anthropic." https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
+7. Anthropic (2026). "Anthropic Economic Index report: Learning curves." https://www.anthropic.com/research/economic-index-march-2026-report
+8. Dell'Acqua, F., et al. (2023/2026). "Navigating the Jagged Technological Frontier." Harvard Business School / *Organization Science*.
+9. Quoidbach, J., Gilbert, D. T., & Wilson, T. D. (2013). "The End of History Illusion." *Science*, 339(6115), 96–98.
 10. Tetlock, P. E. (2005). *Expert Political Judgment: How Good Is It? How Can We Know?* Princeton University Press.
-11. Mitchell, K. E., Levin, A. S., & Krumboltz, J. D. (1999). Planned Happenstance: Constructing Unexpected Career Opportunities. *Journal of Counseling & Development*, 77(2), 115–124.
+11. Mitchell, K. E., Levin, A. S., & Krumboltz, J. D. (1999). "Planned Happenstance: Constructing Unexpected Career Opportunities." *Journal of Counseling & Development*, 77(2), 115–124.
 12. Ibarra, H. (2003). *Working Identity: Unconventional Strategies for Reinventing Your Career.* Harvard Business School Press.
 13. Burnett, B., & Evans, D. (2016). *Designing Your Life.* Knopf.
-14. Federal Reserve Bank of New York: The Labor Market for Recent College Graduates. Related reporting: https://e.vnexpress.net/news/tech/tech-news/us-s-computer-science-grads-face-5th-highest-unemployment-rate-5048578.html
-15. Indeed figures on FDE job growth, as reported at: https://www.scaler.com/topics/forward-deployed-engineer-jobs-grew-1165-percent/
-16. TechCrunch (2025). Six-month-old, solo-owned vibe coder Base44 sells to Wix for $80M cash. https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash
-17. Calcalist (2026). Base44 hits $100 million ARR nine months after Wix acquisition. https://www.calcalistech.com/tags/Base44
-18. CNBC (2025). Shopify CEO: Prove AI can't do jobs before asking for more headcount. https://www.cnbc.com/2025/04/07/shopify-ceo-prove-ai-cant-do-jobs-before-asking-for-more-headcount.html
-19. CCTV News / The Paper (2025). Ministry of Education projects 12.7 million university graduates in the class of 2026. https://www.thepaper.cn/newsDetail_forward_32005999
-20. National Development and Reform Commission website (2026). Analysis of university enrollment expansion and AI's employment effects. https://www.ndrc.gov.cn/wsdwhfz/202606/t20260618_1405988.html
+14. Federal Reserve Bank of New York. "The Labor Market for Recent College Graduates." Coverage: https://e.vnexpress.net/news/tech/tech-news/us-s-computer-science-grads-face-5th-highest-unemployment-rate-5048578.html
+15. NACE (2025, 2026). *Job Outlook 2026* and *Spring Update.* https://naceweb.org/about-us/press/2026/outlook-brightens-for-college-class-of-2026-entry-level-hiring
+16. Indeed Hiring Lab (Aug. 2026). Mid-Year UK Jobs & Hiring Trends Report. Coverage: https://workplacejournal.co.uk/2026/08/graduate-job-postings-at-lowest-level-since-pandemic-indeed/
+17. Adzuna graduate vacancy data (July 2026). Coverage: https://www.outlookmoney.com/invest/uk-graduate-job-vacancies-fall-nearly-50-in-one-year-as-entry-level-hiring-comes-under-pressure
+18. Axios (May 2025). "Behind the Curtain: A white-collar bloodbath." https://axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic
+19. Indeed data on forward deployed engineer postings. Coverage: https://www.scaler.com/topics/forward-deployed-engineer-jobs-grew-1165-percent/
+20. TechCrunch (June 2025). "Six-month-old, solo-owned vibe coder Base44 sells to Wix for $80M cash." https://techcrunch.com/2025/06/18/six-month-old-solo-owned-vibe-coder-base44-sells-to-wix-for-80m-cash
+21. Calcalist (2026). "Base44 hits $100 million ARR nine months after Wix acquisition." https://www.calcalistech.com/tags/Base44
+22. CNBC (Apr. 2025). "Shopify CEO: Prove AI can't do jobs before asking for more headcount." https://www.cnbc.com/2025/04/07/shopify-ceo-prove-ai-cant-do-jobs-before-asking-for-more-headcount.html
