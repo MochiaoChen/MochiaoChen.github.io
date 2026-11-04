@@ -5,6 +5,7 @@ date: 2026-11-04 23:30:00 +0800
 date_label: "2026.11.04"
 categories: [思考]
 tags: [AI, 职业规划, 学习]
+translation_url: /en/writing/2026/11/career-planning-in-the-ai-age/
 toc: true
 ---
 
